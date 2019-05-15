@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Sega - Master System - Mark III</name>
+		<description>Sega - Master System - Mark III</description>
+		<version>20190402-062156</version>
+		<author>BigFred, C. V. Reynolds, fuzzball, gigadeath, kazumi213, omonim2007, relax, Rifu, TeamEurope, xuom2</author>
+		<homepage>No-Intro</homepage>
+		<url>http://www.no-intro.org</url>
+	</header>
+	<game name="[BIOS] Alex Kidd in Miracle World (USA, Europe)">
+		<description>[BIOS] Alex Kidd in Miracle World (USA, Europe)</description>
+		<rom name="[BIOS] Alex Kidd in Miracle World (USA, Europe).sms" size="131072" crc="CF4A09EA" md5="E8B26871629B938887757A64798DF6DC" sha1="3AF7B66248D34EB26DA40C92BF2FA4C73A46A051" status="verified"/>
+	</game>
+	<game name="[BIOS] Hang-On (USA, Europe) (v3.4)">
+		<description>[BIOS] Hang-On (USA, Europe) (v3.4)</description>
+		<rom name="[BIOS] Hang-On (USA, Europe) (v3.4).sms" size="131072" crc="8EDF7AC6" md5="5CD8F62CD8786AF0226E6D2248279338" sha1="51FD6D7990F62CD9D18C9ECFC62ED7936169107E" status="verified"/>
+	</game>
+	<game name="[BIOS] Hang-On &amp; Safari Hunt (USA, Europe, Brazil) (v2.4)">
+		<description>[BIOS] Hang-On &amp; Safari Hunt (USA, Europe, Brazil) (v2.4)</description>
+		<rom name="[BIOS] Hang-On &amp; Safari Hunt (USA, Europe, Brazil) (v2.4).sms" size="131072" crc="91E93385" md5="02CBB2E348945C9AC41E37502A58CA76" sha1="9E179392CD416AF14024D8F31C981D9EE9A64517" status="verified"/>
+	</game>
+	<game name="[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)">
+		<description>[BIOS] Missile Defense 3-D (USA, Europe) (v4.4)</description>
+		<rom name="[BIOS] Missile Defense 3-D (USA, Europe) (v4.4).sms" size="131072" crc="E79BB689" md5="08B81AA6BE18B92DAEF1B875DEECF824" sha1="AA92AE576CA670B00855E278378D89E9F85E0351" status="verified"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA, Europe) (v1.3)">
+		<description>[BIOS] Sega Master System (USA, Europe) (v1.3)</description>
+		<rom name="[BIOS] Sega Master System (USA, Europe) (v1.3).sms" size="8192" crc="0072ED54" md5="840481177270D5642A14CA71EE72844C" sha1="C315672807D8DDB8D91443729405C766DD95CAE7" status="verified"/>
+	</game>
+	<game name="[BIOS] Sega Master System (USA) (Store Display Unit)">
+		<description>[BIOS] Sega Master System (USA) (Store Display Unit)</description>
+		<rom name="[BIOS] Sega Master System (USA) (Store Display Unit).sms" size="16384" crc="EE2C29BA" md5="B264BEF9BDA264FFE83AFCEBAC21B81F" sha1="FC465122134D95363112EB51B9AB71DB3576CEFD" status="verified"/>
+	</game>
+	<game name="Action Fighter (USA, Europe, Brazil) (Rev 1)">
+		<description>Action Fighter (USA, Europe, Brazil) (Rev 1)</description>
+		<rom name="Action Fighter (USA, Europe, Brazil) (Rev 1).sms" size="131072" crc="3658F3E0" md5="47D736575F9A22F7490D62C76ED7C933" sha1="B462246FED3CBB9DC3909A2D5BEFAEC65D7A0014" status="verified"/>
+	</game>
+	<game name="Aerial Assault (USA)">
+		<description>Aerial Assault (USA)</description>
+		<rom name="Aerial Assault (USA).sms" size="262144" crc="15576613" md5="8B603C931418A3680B8723861F55A7B5" sha1="E57B1D4476CA33D18D9071E022DDC9CC702D6497" status="verified"/>
+	</game>
+	<game name="After Burner (World)">
+		<description>After Burner (World)</description>
+		<rom name="After Burner (World).sms" size="524288" crc="1C951F8E" md5="6271C183513E0BE0543E326419EE989E" sha1="51531DF038783C84640A0CAB93122E0B59E3B69A" status="verified"/>
+	</game>
+	<game name="Alex Kidd - High-Tech World (USA, Europe, Brazil)">
+		<description>Alex Kidd - High-Tech World (USA, Europe, Brazil)</description>
+		<rom name="Alex Kidd - High-Tech World (USA, Europe, Brazil).sms" size="131072" crc="013C0A94" md5="0F6EBFA2B24BB99DBEA1142312FD33C9" sha1="2D0A581DA1C787B1407FB1CFEFD0571E37899978" status="verified"/>
+	</game>
+	<game name="Alex Kidd - The Lost Stars (World)">
+		<description>Alex Kidd - The Lost Stars (World)</description>
+		<rom name="Alex Kidd - The Lost Stars (World).sms" size="262144" crc="C13896D5" md5="EA50DCDD1241667F32D39D606A9F7083" sha1="6DBF2684C3DFEA7442D0B40A9FF7C8B8FC9B1B98" status="verified"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (USA, Europe)">
+		<description>Alex Kidd in Miracle World (USA, Europe)</description>
+		<rom name="Alex Kidd in Miracle World (USA, Europe).sms" size="131072" crc="17A40E29" md5="3D9A8D5C2D6D3F8FF63A8F7C77FFA983" sha1="8CECF8ED0F765163B2657BE1B0A3CE2A9CB767F4" status="verified"/>
+	</game>
+	<game name="Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1)">
+		<description>Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1)</description>
+		<rom name="Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1).sms" size="131072" crc="AED9AAC4" md5="F43E74FFEC58DDF62F0B8667D31F22C0" sha1="6D052E0CCA3F2712434EFD856F733C03011BE41C" status="verified"/>
+	</game>
+	<game name="Alex Kidd in Shinobi World (USA, Europe, Brazil)">
+		<description>Alex Kidd in Shinobi World (USA, Europe, Brazil)</description>
+		<rom name="Alex Kidd in Shinobi World (USA, Europe, Brazil).sms" size="262144" crc="D2417ED7" md5="D62B631506913712A2103F54912458A5" sha1="E7C7C24E208AFB986AB389883F98A1B5A8249FEA" status="verified"/>
+	</game>
+	<game name="Alf (USA)">
+		<description>Alf (USA)</description>
+		<rom name="Alf (USA).sms" size="131072" crc="82038AD4" md5="BC1360AFA99CD89FBAB4EA55BEF08AAE" sha1="7706485B735F5D7F7A59C7D626B13B23E8696087" status="verified"/>
+	</game>
+	<game name="Alien Syndrome (USA, Europe, Brazil)">
+		<description>Alien Syndrome (USA, Europe, Brazil)</description>
+		<rom name="Alien Syndrome (USA, Europe, Brazil).sms" size="262144" crc="5CBFE997" md5="732808A44A90B780454A1EB6ADBF3957" sha1="0DA0B9755B6A6EF145EC3B95E651D2A384B3F7F9" status="verified"/>
+	</game>
+	<game name="Altered Beast (USA, Europe, Brazil)">
+		<description>Altered Beast (USA, Europe, Brazil)</description>
+		<rom name="Altered Beast (USA, Europe, Brazil).sms" size="262144" crc="BBA2FE98" md5="24618CA4A223A36D2BFDA10F42454687" sha1="413986F174799F094A8DD776D91DCF018EE17290" status="verified"/>
+	</game>
+	<game name="Assault City (USA, Europe, Brazil) (Light Phaser)">
+		<description>Assault City (USA, Europe, Brazil) (Light Phaser)</description>
+		<rom name="Assault City (USA, Europe, Brazil) (Light Phaser).sms" size="262144" crc="861B6E79" md5="4354119B151D9129D31918865DB9B1C9" sha1="835217550ECB92422D887A3353FF43890C71566B" status="verified"/>
+	</game>
+	<game name="Astro Warrior (Japan, USA, Brazil)">
+		<description>Astro Warrior (Japan, USA, Brazil)</description>
+		<rom name="Astro Warrior (Japan, USA, Brazil).sms" size="131072" crc="299CBB74" md5="E645FAA5628CAAB5129383FDBF4DF090" sha1="901697A3535AD70190647F34AD5B30B695D54542" status="verified"/>
+	</game>
+	<game name="Aztec Adventure (World)">
+		<description>Aztec Adventure (World)</description>
+		<rom name="Aztec Adventure (World).sms" size="131072" crc="FF614EB3" md5="12CE04FF557A96ADD46F04B12B0D47CC" sha1="317775A17867530A8FE3A5B17B681D5ADA351432" status="verified"/>
+	</game>
+	<game name="Black Belt (USA, Europe, Brazil)">
+		<description>Black Belt (USA, Europe, Brazil)</description>
+		<rom name="Black Belt (USA, Europe, Brazil).sms" size="131072" crc="DA3A2F57" md5="16E6B4A1D71960D64BD20AAF7024E8AC" sha1="7C5524CFF2DE9B694E925297E8E74C7C8D292E46" status="verified"/>
+	</game>
+	<game name="Blade Eagle ~ Blade Eagle 3-D (World)">
+		<description>Blade Eagle ~ Blade Eagle 3-D (World)</description>
+		<rom name="Blade Eagle ~ Blade Eagle 3-D (World).sms" size="262144" crc="8ECD201C" md5="A20798B12481284F77CEE67CE5E25F2B" sha1="B786D15B26B914C24CD1C36A8FCA41B215C0A4E7" status="verified"/>
+	</game>
+	<game name="Bomber Raid (World)">
+		<description>Bomber Raid (World)</description>
+		<rom name="Bomber Raid (World).sms" size="262144" crc="3084CF11" md5="D1151DE6EA0A2547F047CE31B22FE18F" sha1="D754EF2B6E05C76502C02C71DBFCF6150EE12F6F" status="verified"/>
+	</game>
+	<game name="California Games (USA, Europe, Brazil)">
+		<description>California Games (USA, Europe, Brazil)</description>
+		<rom name="California Games (USA, Europe, Brazil).sms" size="262144" crc="AC6009A7" md5="182B179A1226FB5B1E1CF6BB2F351C50" sha1="D0F8298BB2A30A3569C65372A959612DF3B608DB" status="verified"/>
+	</game>
+	<game name="Captain Silver (USA)">
+		<description>Captain Silver (USA)</description>
+		<rom name="Captain Silver (USA).sms" size="131072" crc="B81F6FA5" md5="1DFAADBFE7D8019E73BD980FD4B819EA" sha1="7C2B23F4A806C89A533F27E190499243E7311C47" status="verified"/>
+	</game>
+	<game name="Casino Games (USA, Europe)">
+		<description>Casino Games (USA, Europe)</description>
+		<rom name="Casino Games (USA, Europe).sms" size="262144" crc="3CFF6E80" md5="EC16428B908A2C0036B799E55614BE3D" sha1="8353B86965A87C724B95BB768D00DC84EEADCE96" status="verified"/>
+	</game>
+	<game name="Castle of Illusion Starring Mickey Mouse (USA, Brazil)">
+		<description>Castle of Illusion Starring Mickey Mouse (USA, Brazil)</description>
+		<rom name="Castle of Illusion Starring Mickey Mouse (USA, Brazil).sms" size="262144" crc="B9DB4282" md5="E9B4B92BC29CA8FBE9978DA6720BD1EB" sha1="C31D80429801E8C927CB0536D66A16D51788FF4F" status="verified"/>
+	</game>
+	<game name="Choplifter (USA, Europe, Brazil)">
+		<description>Choplifter (USA, Europe, Brazil)</description>
+		<rom name="Choplifter (USA, Europe, Brazil).sms" size="131072" crc="4A21C15F" md5="747A206EAAADF48714695E8B4CCEAD7E" sha1="856E741EEC9692FCC3B22C5C5642F54482E6E00B" status="verified"/>
+	</game>
+	<game name="Cloud Master (USA, Europe, Brazil)">
+		<description>Cloud Master (USA, Europe, Brazil)</description>
+		<rom name="Cloud Master (USA, Europe, Brazil).sms" size="262144" crc="E7F62E6D" md5="4498AFC1FCE51EBD461798FBE61AA6F8" sha1="B936276B272D8361BCA8D7B05D1EBC59F1F639BC" status="verified"/>
+	</game>
+	<game name="Columns ~ Shapes and Columns (USA, Europe, Brazil)">
+		<description>Columns ~ Shapes and Columns (USA, Europe, Brazil)</description>
+		<rom name="Columns ~ Shapes and Columns (USA, Europe, Brazil).sms" size="131072" crc="665FDA92" md5="D443D521036D527D35926809F230106C" sha1="3D16B0954B5419B071DE270B44D38FC6570A8439" status="verified"/>
+	</game>
+	<game name="Cyborg Hunter (USA, Europe, Brazil)">
+		<description>Cyborg Hunter (USA, Europe, Brazil)</description>
+		<rom name="Cyborg Hunter (USA, Europe, Brazil).sms" size="131072" crc="908E7524" md5="AC90D79743CAC1AFCD7049F7B4E73BC4" sha1="B6131585CB944D7FAE69AD609802A1B5D51B442F" status="verified"/>
+	</game>
+	<game name="Dead Angle (USA, Europe, Brazil)">
+		<description>Dead Angle (USA, Europe, Brazil)</description>
+		<rom name="Dead Angle (USA, Europe, Brazil).sms" size="262144" crc="E2F7193E" md5="8D5E93715BAD32BA8BBCAC9D21E87D89" sha1="0236C5239C924B425A99367260B9EBFA8B8E0BCA" status="verified"/>
+	</game>
+	<game name="Dick Tracy (USA, Europe, Brazil)">
+		<description>Dick Tracy (USA, Europe, Brazil)</description>
+		<rom name="Dick Tracy (USA, Europe, Brazil).sms" size="262144" crc="F6FAB48D" md5="1DCAF7D1EA7CAAAA716F0EC43C3F828A" sha1="B788F0394AAFBC213E6FA6DCFAE40EBB7659F533" status="verified"/>
+	</game>
+	<game name="Double Dragon (World)">
+		<description>Double Dragon (World)</description>
+		<rom name="Double Dragon (World).sms" size="262144" crc="A55D89F3" md5="FE9AA8044951B10F876B15F4456161A9" sha1="CAD5532AF94ED75C0ADA8820A83FA04D22F7BEF5" status="verified"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil) (Rev 1)">
+		<description>E-SWAT (USA, Europe, Brazil) (Rev 1)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil) (Rev 1).sms" size="262144" crc="C10FCE39" md5="36A5339CEF97D0A5757DB4FD81B4ABF3" sha1="C481B4E5CA136FBB4105AE465259125392FAFFD3" status="verified"/>
+	</game>
+	<game name="E-SWAT (USA, Europe, Brazil)">
+		<description>E-SWAT (USA, Europe, Brazil)</description>
+		<rom name="E-SWAT (USA, Europe, Brazil).sms" size="262144" crc="C4BB1676" md5="DE328CDE27324C8D591F740DB0CB2866" sha1="075297D2F3A8EC4C399EAEAB6B60E246E11B41FE" status="verified"/>
+	</game>
+	<game name="Enduro Racer ~ Super Cross (USA, Europe, Brazil)">
+		<description>Enduro Racer ~ Super Cross (USA, Europe, Brazil)</description>
+		<rom name="Enduro Racer ~ Super Cross (USA, Europe, Brazil).sms" size="131072" crc="00E73541" md5="06779A1A9DBADA60EFB1F37E37040A5B" sha1="10DC132166C1AA47CA7B89FBB1F0A4E56B428359" status="verified"/>
+	</game>
+	<game name="F-16 Fighter ~ F-16 Fighting Falcon (USA, Europe, Brazil)">
+		<description>F-16 Fighter ~ F-16 Fighting Falcon (USA, Europe, Brazil)</description>
+		<rom name="F-16 Fighter ~ F-16 Fighting Falcon (USA, Europe, Brazil).sms" size="32768" crc="EAEBF323" md5="B88767B3386073FA775A8391B8912010" sha1="DE63CA2F59ADB94FAC87623FE68DE75940397449" status="verified"/>
+	</game>
+	<game name="F-16 Fighting Falcon (USA)">
+		<description>F-16 Fighting Falcon (USA)</description>
+		<rom name="F-16 Fighting Falcon (USA).sms" size="32768" crc="184C23B7" md5="9D10A4032EB53337B08C9A709144799E" sha1="A8F083B3DB721B672B5B023D673A64577CB48EF3" status="verified"/>
+	</game>
+	<game name="Fantasy Zone (World)">
+		<description>Fantasy Zone (World)</description>
+		<rom name="Fantasy Zone (World).sms" size="131072" crc="65D7E4E0" md5="FED8690EE5FB895C09CAA8E2B879EBD6" sha1="0278CD120DC3A7707EDA9314C46C7F27F9E8FDDA" status="verified"/>
+	</game>
+	<game name="Fantasy Zone - The Maze (USA, Europe, Brazil)">
+		<description>Fantasy Zone - The Maze (USA, Europe, Brazil)</description>
+		<rom name="Fantasy Zone - The Maze (USA, Europe, Brazil).sms" size="131072" crc="D29889AD" md5="D37F86C678B2AD0018518EA7278DB24B" sha1="A2CD356826C8116178394D8ABA444CB636EF784E" status="verified"/>
+	</game>
+	<game name="Fantasy Zone II (USA, Europe, Brazil)">
+		<description>Fantasy Zone II (USA, Europe, Brazil)</description>
+		<rom name="Fantasy Zone II (USA, Europe, Brazil).sms" size="262144" crc="B8B141F9" md5="481A01C4E768C535EE18D6D78815FC89" sha1="B84831378C7C19798B6FD560647E2941842BB80A" status="verified"/>
+	</game>
+	<game name="Galaxy Force (USA)">
+		<description>Galaxy Force (USA)</description>
+		<rom name="Galaxy Force (USA).sms" size="524288" crc="6C827520" md5="DBAAC7C72EB3E0BF9E6D70B799D62799" sha1="874289A1E8110312DB48C5111FBF8E70B2426B5F" status="verified"/>
+	</game>
+	<game name="Gangster Town (USA, Europe, Brazil)">
+		<description>Gangster Town (USA, Europe, Brazil)</description>
+		<rom name="Gangster Town (USA, Europe, Brazil).sms" size="131072" crc="5FC74D2A" md5="3396259CA032ED4F1499D1F737E75E0D" sha1="57F0972109CB6F9A74C65D70D6497BC02FDFC942" status="verified"/>
+	</game>
+	<game name="Ghost House (USA, Europe, Brazil)">
+		<description>Ghost House (USA, Europe, Brazil)</description>
+		<rom name="Ghost House (USA, Europe, Brazil).sms" size="32768" crc="F1F8FF2D" md5="580ADB73AECD35348862FB6ED43AE956" sha1="CBCE4C5D819BE524F874EC9B60CA9442047A6681" status="verified"/>
+	</game>
+	<game name="Ghostbusters (USA, Europe, Brazil)">
+		<description>Ghostbusters (USA, Europe, Brazil)</description>
+		<rom name="Ghostbusters (USA, Europe, Brazil).sms" size="131072" crc="1DDC3059" md5="DBAE1AD6D3917A95B96D28BFC6F3F90A" sha1="8945A9DFC99A2081A6FB74BBABF8FEAAC83A7E1A" status="verified"/>
+	</game>
+	<game name="Ghouls'n Ghosts (USA, Europe)">
+		<description>Ghouls'n Ghosts (USA, Europe)</description>
+		<rom name="Ghouls'n Ghosts (USA, Europe).sms" size="262144" crc="7A92EBA6" md5="85707B3A74483910699CCC4BA20C64FF" sha1="B193E624795B2BEB741249981D621CB650C658DB" status="verified"/>
+	</game>
+	<game name="Global Defense (USA, Europe, Brazil)">
+		<description>Global Defense (USA, Europe, Brazil)</description>
+		<rom name="Global Defense (USA, Europe, Brazil).sms" size="131072" crc="B746A6F5" md5="7AB485EE37EA7CE538F7DBA08B64D95E" sha1="189EE1D4250A1F33E97053AA804A97B4E1467728" status="verified"/>
+	</game>
+	<game name="Golden Axe (USA, Europe, Brazil)">
+		<description>Golden Axe (USA, Europe, Brazil)</description>
+		<rom name="Golden Axe (USA, Europe, Brazil).sms" size="524288" crc="C08132FB" md5="B4911AD6A9D2BA56497CD5B01DA3938A" sha1="D92538CB16A7A456255FA0DA2BD8D0F588CD12AB" status="verified"/>
+	</game>
+	<game name="Golden Axe Warrior (USA, Europe, Brazil)">
+		<description>Golden Axe Warrior (USA, Europe, Brazil)</description>
+		<rom name="Golden Axe Warrior (USA, Europe, Brazil).sms" size="262144" crc="C7DED988" md5="D46E40BBB729BA233F171AD7BF6169F5" sha1="FBDA0486B393708A89756BB57D116AD6007484E4" status="verified"/>
+	</game>
+	<game name="Golvellius - Valley of Doom (USA, Europe, Brazil)">
+		<description>Golvellius - Valley of Doom (USA, Europe, Brazil)</description>
+		<rom name="Golvellius - Valley of Doom (USA, Europe, Brazil).sms" size="262144" crc="A51376FE" md5="2101295C258CB6B845BDB72BE617691D" sha1="CB8C2DE9A8E91C0E4E60E5D4D9958E671D84DA4C" status="verified"/>
+	</game>
+	<game name="Great Baseball (USA, Europe)">
+		<description>Great Baseball (USA, Europe)</description>
+		<rom name="Great Baseball (USA, Europe).sms" size="131072" crc="10ED6B57" md5="1D126C6AC8E4D7B612E9DB3D56D9E78E" sha1="B332344EB529BAD29DFB582633E787F7E42F71AE" status="verified"/>
+	</game>
+	<game name="Great Basketball (World)">
+		<description>Great Basketball (World)</description>
+		<rom name="Great Basketball (World).sms" size="131072" crc="2AC001EB" md5="450D68460D4AE07A7CC98D36491FD4F8" sha1="2FDB7EBCE61E316DED27B575535D4F475C9DD822" status="verified"/>
+	</game>
+	<game name="Great Football (World)">
+		<description>Great Football (World)</description>
+		<rom name="Great Football (World).sms" size="131072" crc="2055825F" md5="2CF4D65CB09C276A96AD73E724FB825C" sha1="A768F44CE7E50083FFE8C4B5E3AC93CEB7BD3266" status="verified"/>
+	</game>
+	<game name="Great Golf ~ Masters Golf (World)">
+		<description>Great Golf ~ Masters Golf (World)</description>
+		<rom name="Great Golf ~ Masters Golf (World).sms" size="131072" crc="98E4AE4A" md5="763580F2AF57EA7BADDF671FB51787DA" sha1="3C0B12CFB70F2515429B6E88E0753D69DBB907AB" status="verified"/>
+	</game>
+	<game name="Great Ice Hockey (Japan, USA)">
+		<description>Great Ice Hockey (Japan, USA)</description>
+		<rom name="Great Ice Hockey (Japan, USA).sms" size="131072" crc="946B8C4A" md5="26621293A88D55FEDAF71BB097C24653" sha1="A7B76BE9D3ED5D6A94917E444A188767EDE1CC79" status="verified"/>
+	</game>
+	<game name="Great Volleyball (USA, Europe, Brazil)">
+		<description>Great Volleyball (USA, Europe, Brazil)</description>
+		<rom name="Great Volleyball (USA, Europe, Brazil).sms" size="131072" crc="8D43EA95" md5="382B627EFA06C958B8EC5C85E964BF10" sha1="133FFDDE0A5A0CE951C667A4C5D7F9D9F35E9658" status="verified"/>
+	</game>
+	<game name="Hang-On &amp; Astro Warrior (USA)">
+		<description>Hang-On &amp; Astro Warrior (USA)</description>
+		<rom name="Hang-On &amp; Astro Warrior (USA).sms" size="131072" crc="1C5059F0" md5="3701CB59DFD137246D163462D18E8DD4" sha1="AE29F676846FC740A2CFC69756875B6480265F97" status="verified"/>
+	</game>
+	<game name="Hang-On &amp; Safari Hunt (USA)">
+		<description>Hang-On &amp; Safari Hunt (USA)</description>
+		<rom name="Hang-On &amp; Safari Hunt (USA).sms" size="131072" crc="E167A561" md5="84284C327B07C200C16F4E13B2E8DE79" sha1="7C741493889788D4511979BCAA3C48708D6240ED" status="verified"/>
+	</game>
+	<game name="James 'Buster' Douglas Knockout Boxing (USA)">
+		<description>James 'Buster' Douglas Knockout Boxing (USA)</description>
+		<rom name="James 'Buster' Douglas Knockout Boxing (USA).sms" size="262144" crc="6A664405" md5="B3A4815CA9FDC900CF7FE6AD961F8125" sha1="B07000FEB0C74824F2E3E74FD415631A8F3C4DA6" status="verified"/>
+	</game>
+	<game name="Joe Montana Football (USA, Europe, Brazil)">
+		<description>Joe Montana Football (USA, Europe, Brazil)</description>
+		<rom name="Joe Montana Football (USA, Europe, Brazil).sms" size="262144" crc="0A9089E5" md5="0ECE8F9C0FDE2EBA92BBE9A500116FF0" sha1="7452F7286CEE78CE4BBD05841A4D087FDFBA12E3" status="verified"/>
+	</game>
+	<game name="Kenseiden (USA, Europe, Brazil)">
+		<description>Kenseiden (USA, Europe, Brazil)</description>
+		<rom name="Kenseiden (USA, Europe, Brazil).sms" size="262144" crc="516ED32E" md5="6AE8F011701608AE8B765A26EB0B7CE1" sha1="3FCE661D57E8BC764E7190DDBEE4BF3D3E214C6C" status="verified"/>
+	</game>
+	<game name="King's Quest - Quest for the Crown (USA)">
+		<description>King's Quest - Quest for the Crown (USA)</description>
+		<rom name="King's Quest - Quest for the Crown (USA).sms" size="131072" crc="F8D33BC4" md5="2F579F5A3216DFC77AEA636930376BA7" sha1="D05AE9652B85C858F4E7DB0B7B7C457A4E0A6A49" status="verified"/>
+	</game>
+	<game name="Kung Fu Kid (USA, Europe, Brazil)">
+		<description>Kung Fu Kid (USA, Europe, Brazil)</description>
+		<rom name="Kung Fu Kid (USA, Europe, Brazil).sms" size="131072" crc="1E949D1F" md5="126687037BF172174F697D16CD7E7296" sha1="7E1C32F5ABF9FF906FFE113FFAB6EECD1C86B381" status="verified"/>
+	</game>
+	<game name="Lord of the Sword (USA, Europe, Brazil)">
+		<description>Lord of the Sword (USA, Europe, Brazil)</description>
+		<rom name="Lord of the Sword (USA, Europe, Brazil).sms" size="262144" crc="E8511B08" md5="B80F87887881343E5705FF3CCE93C5F1" sha1="A5326A0029F7C3101ADD3335A599A01CCD7634C5" status="verified"/>
+	</game>
+	<game name="Marksman Shooting &amp; Trap Shooting (USA, Brazil)">
+		<description>Marksman Shooting &amp; Trap Shooting (USA, Brazil)</description>
+		<rom name="Marksman Shooting &amp; Trap Shooting (USA, Brazil).sms" size="131072" crc="E8EA842C" md5="0A28CFD7B151531FB7A43181C24E1D3D" sha1="5491CCE7B9C19CB49060DA94AB8F9C4331E77CB3" status="verified"/>
+	</game>
+	<game name="Maze Hunter 3-D (USA, Europe, Brazil)">
+		<description>Maze Hunter 3-D (USA, Europe, Brazil)</description>
+		<rom name="Maze Hunter 3-D (USA, Europe, Brazil).sms" size="131072" crc="31B8040B" md5="2349EE42A09088A4A590E2C65474CDAF" sha1="6D94C2159A67F3140D0C9158B58AA8F0474EAABA" status="verified"/>
+	</game>
+	<game name="Michael Jackson's Moonwalker (USA, Europe, Brazil)">
+		<description>Michael Jackson's Moonwalker (USA, Europe, Brazil)</description>
+		<rom name="Michael Jackson's Moonwalker (USA, Europe, Brazil).sms" size="262144" crc="56CC906B" md5="AA3BC8467E80A6AAAB02051818ECB035" sha1="939416CEBB381458D28FF628AFB3D1F80293AFA9" status="verified"/>
+	</game>
+	<game name="Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil)">
+		<description>Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil)</description>
+		<rom name="Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil).sms" size="262144" crc="0E333B6E" md5="E0A9CF889C27F3CB14903288F646D183" sha1="F952406BCA4918EE91A89B27E949E224EAE96D85" status="verified"/>
+	</game>
+	<game name="Missile Defense 3-D (USA, Europe, Brazil)">
+		<description>Missile Defense 3-D (USA, Europe, Brazil)</description>
+		<rom name="Missile Defense 3-D (USA, Europe, Brazil).sms" size="131072" crc="FBE5CFBB" md5="B17CA24555CC79C5F7D89F156B99E452" sha1="86242FCC8B9F93CDAD2241F40C3EEBBF4C9FF213" status="verified"/>
+	</game>
+	<game name="Monopoly (USA)">
+		<description>Monopoly (USA)</description>
+		<rom name="Monopoly (USA).sms" size="131072" crc="69538469" md5="B887836983FCCB5EC706630CF835939F" sha1="8DD7BB4F666F70F7F57687823D0068C9100AF8E5" status="verified"/>
+	</game>
+	<game name="Montezuma's Revenge featuring Panama Joe (USA)">
+		<description>Montezuma's Revenge featuring Panama Joe (USA)</description>
+		<rom name="Montezuma's Revenge featuring Panama Joe (USA).sms" size="131072" crc="82FDA895" md5="FE20D983D1B18FF1986C376489843F32" sha1="A2665093B8588D5D6F24C6B329080FB3EBEE896E" status="verified"/>
+	</game>
+	<game name="My Hero (USA, Europe, Brazil)">
+		<description>My Hero (USA, Europe, Brazil)</description>
+		<rom name="My Hero (USA, Europe, Brazil).sms" size="32768" crc="62F0C23D" md5="EFEF7361C9C37BCD6A7B84BC121AF5F2" sha1="7583C5FB1963C070B7BDA72B447CC3FD611DDF1A" status="verified"/>
+	</game>
+	<game name="Ninja, The (USA, Europe, Brazil)">
+		<description>Ninja, The (USA, Europe, Brazil)</description>
+		<rom name="Ninja, The (USA, Europe, Brazil).sms" size="131072" crc="66A15BD9" md5="2C620BA64FCAAC940B4B1566733037B3" sha1="76396A25902700E18ADF6BC5C8668E2A8BDF03A9" status="verified"/>
+	</game>
+	<game name="OutRun (World)">
+		<description>OutRun (World)</description>
+		<rom name="OutRun (World).sms" size="262144" crc="5589D8D2" md5="029EE92155247F8A282D63B8A6DD23C4" sha1="4F9B61B24F0D9FEE0448CDBBE8FC05411DBB1102" status="verified"/>
+	</game>
+	<game name="Paperboy (USA, Brazil)">
+		<description>Paperboy (USA, Brazil)</description>
+		<rom name="Paperboy (USA, Brazil).sms" size="131072" crc="327A0B4C" md5="9B694D765038FFB87B36174412452588" sha1="736718EFAB4737EBF9D06221AC35FA2FCC4593CE" status="verified"/>
+	</game>
+	<game name="Parlour Games (USA, Europe)">
+		<description>Parlour Games (USA, Europe)</description>
+		<rom name="Parlour Games (USA, Europe).sms" size="131072" crc="E030E66C" md5="6BEC795910C5A91AC146B905DF7C17F5" sha1="06664DAF208F07CB00B603B12ECCFC3F01213A17" status="verified"/>
+	</game>
+	<game name="Penguin Land (USA, Europe)">
+		<description>Penguin Land (USA, Europe)</description>
+		<rom name="Penguin Land (USA, Europe).sms" size="131072" crc="F97E9875" md5="8DDEC589F72CDCF2CD4CAAFB075EC8E4" sha1="8762239C339A084DFB8443CC38515301476BDE28" status="verified"/>
+	</game>
+	<game name="Phantasy Star (USA, Europe) (Rev 1)">
+		<description>Phantasy Star (USA, Europe) (Rev 1)</description>
+		<rom name="Phantasy Star (USA, Europe) (Rev 1).sms" size="524288" crc="00BEF1D7" md5="1110938DF80F4E44C8213D7F85CFB5E6" sha1="07FCF297BE4F4C9D92CD3F119A7AC48467E06838" status="verified"/>
+	</game>
+	<game name="Phantasy Star (USA, Europe)">
+		<description>Phantasy Star (USA, Europe)</description>
+		<rom name="Phantasy Star (USA, Europe).sms" size="524288" crc="E4A65E79" md5="5BA9114EDEA5DEB5282FD9AD7D4B2D62" sha1="257CA76EBCD54C75A414CA7CE968FA59EA42F150" status="verified"/>
+	</game>
+	<game name="Poseidon Wars 3-D (USA, Europe, Brazil)">
+		<description>Poseidon Wars 3-D (USA, Europe, Brazil)</description>
+		<rom name="Poseidon Wars 3-D (USA, Europe, Brazil).sms" size="262144" crc="ABD48AD2" md5="3586416AC6F2AA1FA7DEA351AFB8AC1C" sha1="C177EFFD5FD18A082393A2B4167C49BCC5DB1F64" status="verified"/>
+	</game>
+	<game name="Power Strike (USA, Europe, Brazil)">
+		<description>Power Strike (USA, Europe, Brazil)</description>
+		<rom name="Power Strike (USA, Europe, Brazil).sms" size="131072" crc="4077EFD9" md5="8D9F02DCFEA8F9728A3665CA12B044D1" sha1="F6F245C41163B15BCE95368E4684B045790A1148" status="verified"/>
+	</game>
+	<game name="Pro Wrestling (USA, Europe, Brazil)">
+		<description>Pro Wrestling (USA, Europe, Brazil)</description>
+		<rom name="Pro Wrestling (USA, Europe, Brazil).sms" size="131072" crc="FBDE42D3" md5="0EE2937104E9667BE89C38E6E9992D4B" sha1="B0E4832AF04B4FB832092AD093D982CE11160EEF" status="verified"/>
+	</game>
+	<game name="Psycho Fox (USA, Europe, Brazil)">
+		<description>Psycho Fox (USA, Europe, Brazil)</description>
+		<rom name="Psycho Fox (USA, Europe, Brazil).sms" size="262144" crc="97993479" md5="A9C2FACF9EF536D095414CE2E7CE2F4F" sha1="278CC3853905626138E83B6CFA39C26BA8E4F632" status="verified"/>
+	</game>
+	<game name="Quartet (USA, Europe)">
+		<description>Quartet (USA, Europe)</description>
+		<rom name="Quartet (USA, Europe).sms" size="131072" crc="E0F34FA6" md5="63AF7FCE5106CC3DE1E1B116C112095B" sha1="08A3484E862A284F6038B7CD0DFC745A8B7C6C51" status="verified"/>
+	</game>
+	<game name="R-Type (World)">
+		<description>R-Type (World)</description>
+		<rom name="R-Type (World).sms" size="524288" crc="BB54B6B0" md5="9E5507D51AC6F24C702A52A7ABCE0D3C" sha1="08EC70A2CD98FCB2645F59857F845D41B0045115" status="verified"/>
+	</game>
+	<game name="R.C. Grand Prix (USA, Europe, Brazil)">
+		<description>R.C. Grand Prix (USA, Europe, Brazil)</description>
+		<rom name="R.C. Grand Prix (USA, Europe, Brazil).sms" size="262144" crc="54316FEA" md5="B30E60B91960A0F2A89FC133410770DF" sha1="94CC64F6FEBDB0FE4E89ECD9DEECA96694E5BEAD" status="verified"/>
+	</game>
+	<game name="Rambo - First Blood Part II (USA)">
+		<description>Rambo - First Blood Part II (USA)</description>
+		<rom name="Rambo - First Blood Part II (USA).sms" size="131072" crc="BBDA65F0" md5="7A080A155AD6A806DA88AA1D3576D78C" sha1="DC44B090A01D6A4D9B5700ADA764B00C62C00E91" status="verified"/>
+	</game>
+	<game name="Rambo III (USA, Europe, Brazil)">
+		<description>Rambo III (USA, Europe, Brazil)</description>
+		<rom name="Rambo III (USA, Europe, Brazil).sms" size="262144" crc="DA5A7013" md5="4FCE4E3247639D0EF54EB54D0EF21153" sha1="6D9746C0E3C50E87FA773A64E2F0BB76F722D76C" status="verified"/>
+	</game>
+	<game name="Rampage (USA, Europe, Brazil)">
+		<description>Rampage (USA, Europe, Brazil)</description>
+		<rom name="Rampage (USA, Europe, Brazil).sms" size="262144" crc="42FC47EE" md5="54EE884BC658DBAD88EAC18E45E0EAFC" sha1="CBF5B6F06BEC42DB8A99C7B9C00118521ADED858" status="verified"/>
+	</game>
+	<game name="Rastan (USA, Europe, Brazil)">
+		<description>Rastan (USA, Europe, Brazil)</description>
+		<rom name="Rastan (USA, Europe, Brazil).sms" size="262144" crc="C547EB1B" md5="5B3A785DE403C311DB7F17EAE27CAAE6" sha1="90F9CCF516DB2A1CF20E199CFD5D31D4CFCE0F1F" status="verified"/>
+	</game>
+	<game name="Reggie Jackson Baseball (USA)">
+		<description>Reggie Jackson Baseball (USA)</description>
+		<rom name="Reggie Jackson Baseball (USA).sms" size="262144" crc="6D94BB0E" md5="B3A37D601050CA5C732DC4160D875821" sha1="B7C387256E58A95BD3C3C4358A8A106F2304E9F2" status="verified"/>
+	</game>
+	<game name="Rescue Mission (USA, Europe, Brazil)">
+		<description>Rescue Mission (USA, Europe, Brazil)</description>
+		<rom name="Rescue Mission (USA, Europe, Brazil).sms" size="131072" crc="79AC8E7F" md5="717FDF868C8F11A712697260EB7DB670" sha1="6A561BFF2F8022261708B91722CAF1EC0E63F9C4" status="verified"/>
+	</game>
+	<game name="Rocky (World)">
+		<description>Rocky (World)</description>
+		<rom name="Rocky (World).sms" size="262144" crc="1BCC7BE3" md5="582D58D95C9774CD50555366C253A050" sha1="8601927CA17419F5D61F757E9371CE533228F7BB" status="verified"/>
+	</game>
+	<game name="Shanghai (USA, Europe)">
+		<description>Shanghai (USA, Europe)</description>
+		<rom name="Shanghai (USA, Europe).sms" size="131072" crc="AAB67EC3" md5="F0595FBD334CB8E95C0486A588A24F7B" sha1="58F01556D1F2DA0AF9DFCDDCB3AC26CB299220D3" status="verified"/>
+	</game>
+	<game name="Shinobi (USA, Europe, Brazil) (Rev 1)">
+		<description>Shinobi (USA, Europe, Brazil) (Rev 1)</description>
+		<rom name="Shinobi (USA, Europe, Brazil) (Rev 1).sms" size="262144" crc="0C6FAC4E" md5="3DD2C025185E19AC9BF1ED16B695C629" sha1="7C0778C055DC9C2B0AAE1D166DBDB4734E55B9D1" status="verified"/>
+	</game>
+	<game name="Shooting Gallery (USA, Europe, Brazil)">
+		<description>Shooting Gallery (USA, Europe, Brazil)</description>
+		<rom name="Shooting Gallery (USA, Europe, Brazil).sms" size="131072" crc="4B051022" md5="F8EA8B8E641CABFF32210EA6583F9F94" sha1="6C22E3FA928C2AED468E925AF65EA7F7C6292905" status="verified"/>
+	</game>
+	<game name="Slap Shot (USA, Brazil)">
+		<description>Slap Shot (USA, Brazil)</description>
+		<rom name="Slap Shot (USA, Brazil).sms" size="262144" crc="702C3E98" md5="2027D095EE5C1F2C01255888E0B436ED" sha1="2259DCF3CE702B5DDC8D0A5ED335263F45ECD2CE" status="verified"/>
+	</game>
+	<game name="Sonic The Hedgehog (USA, Europe, Brazil)">
+		<description>Sonic The Hedgehog (USA, Europe, Brazil)</description>
+		<rom name="Sonic The Hedgehog (USA, Europe, Brazil).sms" size="262144" crc="B519E833" md5="DC13A61EAFE75C13C15B5ECE419AC57B" sha1="6B9677E4A9ABB37765D6DB4658F4324251807E07" status="verified"/>
+	</game>
+	<game name="Space Harrier (Japan, USA)">
+		<description>Space Harrier (Japan, USA)</description>
+		<rom name="Space Harrier (Japan, USA).sms" size="262144" crc="BEDDF80E" md5="B2E5047DF186AF7C02DA17F1B285AE4F" sha1="51BA2185A2B93957C1C51B0A2E2B80394463BED8" status="verified"/>
+	</game>
+	<game name="Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil)">
+		<description>Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil)</description>
+		<rom name="Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil).sms" size="262144" crc="6BD5C2BF" md5="945A4202181ABE8C50082A65211EF7C7" sha1="CE3507F62563F7D4CB4B2FC6497317685626AF92" status="verified"/>
+	</game>
+	<game name="SpellCaster (USA, Europe, Brazil)">
+		<description>SpellCaster (USA, Europe, Brazil)</description>
+		<rom name="SpellCaster (USA, Europe, Brazil).sms" size="524288" crc="4752CAE7" md5="0E1449DD7DF4FD0995CCF802BB74CBA0" sha1="EED8B01FCA86DBD8291D5CA2D1E6F6CA1B60FE68" status="verified"/>
+	</game>
+	<game name="Spider-Man (USA, Europe, Brazil)">
+		<description>Spider-Man (USA, Europe, Brazil)</description>
+		<rom name="Spider-Man (USA, Europe, Brazil).sms" size="262144" crc="908FF25C" md5="FA10EE70E43385E88E5D1A008716668B" sha1="02EBEE891D88BACDADD37A3E75E05763B7AD3C9B" status="verified"/>
+	</game>
+	<game name="Sports Pad Football (USA)">
+		<description>Sports Pad Football (USA)</description>
+		<rom name="Sports Pad Football (USA).sms" size="131072" crc="E42E4998" md5="3317F644F36159E2DC63AEA9B75C927D" sha1="556D9AB4BA3C3A34440B36C6FC8E972F70F16D72" status="verified"/>
+	</game>
+	<game name="Spy vs Spy (USA, Europe, Brazil)">
+		<description>Spy vs Spy (USA, Europe, Brazil)</description>
+		<rom name="Spy vs Spy (USA, Europe, Brazil).sms" size="32768" crc="78D7FAAB" md5="C6ADC5DB40D0DB75C9C167E4BB2ED918" sha1="FEAB16DD8B807B88395E91C67E9FF52F8F7AA7E4" status="verified"/>
+	</game>
+	<game name="Strider (USA, Europe, Brazil)">
+		<description>Strider (USA, Europe, Brazil)</description>
+		<rom name="Strider (USA, Europe, Brazil).sms" size="524288" crc="9802ED31" md5="48AF5AE2CAD7C48C81D7C2553A8ED426" sha1="051E72C8FFEC7606C04409EF38244CFDD592252F" status="verified"/>
+	</game>
+	<game name="Super Monaco GP (USA)">
+		<description>Super Monaco GP (USA)</description>
+		<rom name="Super Monaco GP (USA).sms" size="262144" crc="3EF12BAA" md5="AED300F323AAE6D00878EB6BA21C2EB7" sha1="FC933D9EC3A7E699C1E2CDA89B957665E7321A80" status="verified"/>
+	</game>
+	<game name="Super Tennis (USA, Europe)">
+		<description>Super Tennis (USA, Europe)</description>
+		<rom name="Super Tennis (USA, Europe).sms" size="32768" crc="914514E3" md5="2DB9404FE79593FD2379921CA822103A" sha1="67787F3F29A5B5E74B5F6A636428DA4517A0F992" status="verified"/>
+	</game>
+	<game name="Teddy Boy (USA, Europe, Brazil)">
+		<description>Teddy Boy (USA, Europe, Brazil)</description>
+		<rom name="Teddy Boy (USA, Europe, Brazil).sms" size="32768" crc="2728FAA3" md5="66BAEA0A42353FFD3F131586E0C9C4D4" sha1="6AE39718703DBF7126F71387CE24AD956710A315" status="verified"/>
+	</game>
+	<game name="Thunder Blade (USA, Europe, Brazil)">
+		<description>Thunder Blade (USA, Europe, Brazil)</description>
+		<rom name="Thunder Blade (USA, Europe, Brazil).sms" size="262144" crc="AE920E4B" md5="70DCEE3C77E95D83FCF6DF0DAE30A4A8" sha1="C38F3EEA4E7224BC6042723E88B26C85B1A56DDC" status="verified"/>
+	</game>
+	<game name="Time Soldiers (USA, Europe, Brazil)">
+		<description>Time Soldiers (USA, Europe, Brazil)</description>
+		<rom name="Time Soldiers (USA, Europe, Brazil).sms" size="262144" crc="51BD14BE" md5="DBC9260009DD0838D0E31DE51D57D078" sha1="89842CB30CC3BA626901A5DA41481F6D157EBD15" status="verified"/>
+	</game>
+	<game name="TransBot (USA, Europe, Brazil)">
+		<description>TransBot (USA, Europe, Brazil)</description>
+		<rom name="TransBot (USA, Europe, Brazil).sms" size="32768" crc="4BC42857" md5="93BB1E1EE14AC53ADB9E6B9E0C135043" sha1="73273E6D44AD7AEA828B642D22F6F1C138BE9D2B" status="verified"/>
+	</game>
+	<game name="Vigilante (USA, Europe, Brazil)">
+		<description>Vigilante (USA, Europe, Brazil)</description>
+		<rom name="Vigilante (USA, Europe, Brazil).sms" size="262144" crc="DFB0B161" md5="6DEABFC15D9AEB4C8ED1B641FB950DE5" sha1="0DC37F1104508C2C0E2593B10DFFC3F268AE8FF9" status="verified"/>
+	</game>
+	<game name="Walter Payton Football (USA)">
+		<description>Walter Payton Football (USA)</description>
+		<rom name="Walter Payton Football (USA).sms" size="262144" crc="3D55759B" md5="5D292F9C2FA5893FA520C8145B437A28" sha1="2D1201523540AE1673FE75BD2C9D1DB1CC61987D" status="verified"/>
+	</game>
+	<game name="Wanted (USA, Europe, Brazil)">
+		<description>Wanted (USA, Europe, Brazil)</description>
+		<rom name="Wanted (USA, Europe, Brazil).sms" size="131072" crc="5359762D" md5="0070737DDB0A2E5E822F1D8F46437B07" sha1="6135E4D0F76812F9D35DDB5B3E7D34D56A5458B3" status="verified"/>
+	</game>
+	<game name="Where in the World is Carmen Sandiego (USA)">
+		<description>Where in the World is Carmen Sandiego (USA)</description>
+		<rom name="Where in the World is Carmen Sandiego (USA).sms" size="131072" crc="428B1E7C" md5="29DCFCF773CEB9EF29B524183AD89D8C" sha1="683317C8D7D8B974066D7DDB3ED64F99801AA9DE" status="verified"/>
+	</game>
+	<game name="Wonder Boy (USA, Europe, Brazil) (Rev 1)">
+		<description>Wonder Boy (USA, Europe, Brazil) (Rev 1)</description>
+		<rom name="Wonder Boy (USA, Europe, Brazil) (Rev 1).sms" size="131072" crc="73705C02" md5="7E805AA51BFB5F206C950A32EBCDAB7C" sha1="63149F20BF69CD2F24D0E58841FCFCDACE972F49" status="verified"/>
+	</game>
+	<game name="Wonder Boy III - The Dragon's Trap (USA, Europe)">
+		<description>Wonder Boy III - The Dragon's Trap (USA, Europe)</description>
+		<rom name="Wonder Boy III - The Dragon's Trap (USA, Europe).sms" size="262144" crc="679E1676" md5="E7F86C049E4BD8B26844FF62BD067D57" sha1="99E73DE2FFE5EA5D40998FAEC16504C226F4C1BA" status="verified"/>
+	</game>
+	<game name="Wonder Boy in Monster Land (USA, Europe)">
+		<description>Wonder Boy in Monster Land (USA, Europe)</description>
+		<rom name="Wonder Boy in Monster Land (USA, Europe).sms" size="262144" crc="8CBEF0C1" md5="8F8AAAC492DE96F2CFDDB9D1A57DD979" sha1="51715DB7A49A18452292DADB2BBA0108AA6D6402" status="verified"/>
+	</game>
+	<game name="World Grand Prix (USA, Brazil)">
+		<description>World Grand Prix (USA, Brazil)</description>
+		<rom name="World Grand Prix (USA, Brazil).sms" size="131072" crc="7B369892" md5="75550FCA836414CE7286C294D03C1B04" sha1="FEFF411732CA2DC17DAB6D7868749D79326993D7" status="verified"/>
+	</game>
+	<game name="World Soccer ~ Great Soccer ~ Super Futebol (World)">
+		<description>World Soccer ~ Great Soccer ~ Super Futebol (World)</description>
+		<rom name="World Soccer ~ Great Soccer ~ Super Futebol (World).sms" size="131072" crc="72112B75" md5="5F008423AE6A454BC70E94A8C9F33D1C" sha1="BD385B69805C623AB9934174A19A30371584C4B0" status="verified"/>
+	</game>
+	<game name="Ys - The Vanished Omens (USA, Europe, Brazil)">
+		<description>Ys - The Vanished Omens (USA, Europe, Brazil)</description>
+		<rom name="Ys - The Vanished Omens (USA, Europe, Brazil).sms" size="262144" crc="B33E2827" md5="77D2FF054429F7970134E67800539A78" sha1="E73E836C353543E9F48315410B0D72278899FF59" status="verified"/>
+	</game>
+	<game name="Zaxxon 3-D (World)">
+		<description>Zaxxon 3-D (World)</description>
+		<rom name="Zaxxon 3-D (World).sms" size="262144" crc="A3EF13CB" md5="882DC10B0792BE579A745C3F38010642" sha1="257946FE8A230AC1308FC60A8ED43851CFE6B915" status="verified"/>
+	</game>
+	<game name="Zillion (USA, Europe) (Rev 1)">
+		<description>Zillion (USA, Europe) (Rev 1)</description>
+		<rom name="Zillion (USA, Europe) (Rev 1).sms" size="131072" crc="5718762C" md5="D4BF9E7BCF9A48DA53785D2AE7BC4270" sha1="3AAB3E95DAC0FA93612DA20CF525DBA4DC4CA6BA" status="verified"/>
+	</game>
+	<game name="Zillion II - The Tri Formation (World)">
+		<description>Zillion II - The Tri Formation (World)</description>
+		<rom name="Zillion II - The Tri Formation (World).sms" size="131072" crc="2F2E3BC9" md5="605B0C360075876B4A0BE479679D1075" sha1="1E08BE828ECF4CF5DB787704AB8779F4B5A444B5" status="verified"/>
+	</game>
+</datafile>

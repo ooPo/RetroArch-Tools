@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Magnavox - Odyssey2</name>
+		<description>Magnavox - Odyssey2</description>
+		<version>20120223-000000</version>
+		<author>kazumi213</author>
+		<homepage>No-Intro</homepage>
+		<url>http://www.no-intro.org</url>
+	</header>
+	<game name="[BIOS] Magnavox Odyssey2 (USA, Europe)">
+		<description>[BIOS] Magnavox Odyssey2 (USA, Europe)</description>
+		<rom name="[BIOS] Magnavox Odyssey2 (USA, Europe).bin" size="1024" crc="8016A315" md5="562D5EBF9E030A40D6FABFC2F33139FD" sha1="B2E1955D957A475DE2411770452EFF4EA19F4CEE"/>
+	</game>
+	<game name="Alien Invaders - Plus (USA, Europe)">
+		<description>Alien Invaders - Plus (USA, Europe)</description>
+		<rom name="Alien Invaders - Plus (USA, Europe).bin" size="2048" crc="71AE8533" md5="4D6CFB7DA66C8D9327B3CCDCE9852509" sha1="9BA0737FDEE2918375725BB5230D075A2F847159"/>
+	</game>
+	<game name="Alpine Skiing (USA, Europe)">
+		<description>Alpine Skiing (USA, Europe)</description>
+		<rom name="Alpine Skiing (USA, Europe).bin" size="2048" crc="4663C4B6" md5="55D7B6575645BFB5890A39491F823FEA" sha1="9E7E16744B44FA83FA14C211B2365CF04604E06E"/>
+	</game>
+	<game name="Armored Encounter + Sub Chase (USA, Europe)">
+		<description>Armored Encounter + Sub Chase (USA, Europe)</description>
+		<rom name="Armored Encounter + Sub Chase (USA, Europe).bin" size="2048" crc="5AE57A8C" md5="8B4C318129A28E313DC89FE73269BE61" sha1="086A29EB625C935295157CE62CA9717DFFFF2AF0"/>
+	</game>
+	<game name="Atlantis (USA, Europe)">
+		<description>Atlantis (USA, Europe)</description>
+		<rom name="Atlantis (USA, Europe).bin" size="4096" crc="A7344D1F" md5="7D23DF55DFACA55BC4C87677855F4A45" sha1="6975CF9FED3EE1A2567477921EB851A669D42446"/>
+	</game>
+	<game name="Attack of the Timelord (USA)">
+		<description>Attack of the Timelord (USA)</description>
+		<rom name="Attack of the Timelord (USA).bin" size="4096" crc="FC5A7F08" md5="4AC71DCC25881BF4D34D0A3C385568C8" sha1="C63AD4E9AAA903DED9FCF185CAF24E76F8AAF3A9"/>
+	</game>
+	<game name="Baseball (USA, Europe)">
+		<description>Baseball (USA, Europe)</description>
+		<rom name="Baseball (USA, Europe).bin" size="2048" crc="B07748E7" md5="FF418E9819CBCD10F02225F7FA3B2362" sha1="14A37A38C582D8822CB78FB0AACE221A2FA9A44C"/>
+	</game>
+	<game name="Blockout + Breakdown (USA, Europe)">
+		<description>Blockout + Breakdown (USA, Europe)</description>
+		<rom name="Blockout + Breakdown (USA, Europe).bin" size="2048" crc="FB83171E" md5="5F36EBA1EFE84CD06012C0B8BF4C05CB" sha1="00EF6868724A6826534DA620F34DAD207FCB3800"/>
+	</game>
+	<game name="Bowling + Basketball (USA, Europe)">
+		<description>Bowling + Basketball (USA, Europe)</description>
+		<rom name="Bowling + Basketball (USA, Europe).bin" size="2048" crc="084EE035" md5="16652634E75560DC830A0C38D7FE1711" sha1="2630C304B6BEB0F8021578277BE68E837202895D"/>
+	</game>
+	<game name="Casino Slot Machine (USA, Europe)">
+		<description>Casino Slot Machine (USA, Europe)</description>
+		<rom name="Casino Slot Machine (USA, Europe).bin" size="2048" crc="BB6E7135" md5="31A6C912B7AD75ECD0B9387DE6F0FBE9" sha1="052BC62EB03E2673A802BAB866DD0AB3C39FD584"/>
+	</game>
+	<game name="Computer Golf (USA)">
+		<description>Computer Golf (USA)</description>
+		<rom name="Computer Golf (USA).bin" size="2048" crc="0F870806" md5="8B1B91361F92725B7587ED41FAC6D3E0" sha1="C8736250EBF376543256D85CF853E825475E0AF6"/>
+	</game>
+	<game name="Computer Intro (USA)">
+		<description>Computer Intro (USA)</description>
+		<rom name="Computer Intro (USA).bin" size="2048" crc="95EFA98B" md5="1E7035584D19AAA53EB3795D92FA6215" sha1="F93C448243DB428A4C9E2354596844ED07BB7530"/>
+	</game>
+	<game name="Conquest of the World (USA, Europe)">
+		<description>Conquest of the World (USA, Europe)</description>
+		<rom name="Conquest of the World (USA, Europe).bin" size="4096" crc="AFC093FD" md5="619C1545BD9C7C9DE15E73A1BD23BDAF" sha1="508D1475670BA561E7DDF961A4F0CF6D139D168C"/>
+	</game>
+	<game name="Cosmic Conflict (USA)">
+		<description>Cosmic Conflict (USA)</description>
+		<rom name="Cosmic Conflict (USA).bin" size="2048" crc="C049E79E" md5="86AC9DAF92ECF01996C56F1E75D558BD" sha1="DCCBF881E21DD02CBAF15EC049E0801118FB9C96"/>
+	</game>
+	<game name="Demon Attack (USA, Europe)">
+		<description>Demon Attack (USA, Europe)</description>
+		<rom name="Demon Attack (USA, Europe).bin" size="4096" crc="9BFC3E01" md5="EF55AF1C7164948A245EEB71F804BED8" sha1="2D78CCBB56E8B43BB8101B2A1932F5E778B9DBC3"/>
+	</game>
+	<game name="Dynasty (USA)">
+		<description>Dynasty (USA)</description>
+		<rom name="Dynasty (USA).bin" size="2048" crc="DC30AD3D" md5="B976C87CA8B790ABD2D6E2000D80CB02" sha1="20C6E4035CE8DD5A8F331C18CEEF1056DC9CE818"/>
+	</game>
+	<game name="Electronic Table Soccer (USA, Europe)">
+		<description>Electronic Table Soccer (USA, Europe)</description>
+		<rom name="Electronic Table Soccer (USA, Europe).bin" size="2048" crc="89C6DE2C" md5="2F83125F4E5F1F5E87423CF52E6A2A1A" sha1="3A032C9BE1081DB58F28F906940641D74D6BAE2B"/>
+	</game>
+	<game name="Football (USA, Europe)">
+		<description>Football (USA, Europe)</description>
+		<rom name="Football (USA, Europe).bin" size="2048" crc="F9084AA3" md5="5A64C4EA84E12A04A7F0070ED13A9507" sha1="364504FFCE1108BCF09A5CC784F7EA2CF141F7B8"/>
+	</game>
+	<game name="Freedom Fighters (USA, Europe)">
+		<description>Freedom Fighters (USA, Europe)</description>
+		<rom name="Freedom Fighters (USA, Europe).bin" size="4096" crc="54736B74" md5="D85945B5E8C37E4298BD962D87728580" sha1="AD11F3FAD2DFD3716445FEF3B7D83D479EDEE0ED"/>
+	</game>
+	<game name="Great Wall Street Fortune Hunt, The (USA, Europe)">
+		<description>Great Wall Street Fortune Hunt, The (USA, Europe)</description>
+		<rom name="Great Wall Street Fortune Hunt, The (USA, Europe).bin" size="4096" crc="881CEAE4" md5="E3A89962603ED28584D3270D700B3A31" sha1="D54B1D5667BF90368DDDAB55A91955B1789F177C"/>
+	</game>
+	<game name="Hockey + Soccer (USA, Europe)">
+		<description>Hockey + Soccer (USA, Europe)</description>
+		<rom name="Hockey + Soccer (USA, Europe).bin" size="2048" crc="39989464" md5="BB393FBE922CD34D81ECCDAEE40CBC4D" sha1="F39C9801984F97D5A685A4B7A1ACCD0164A49B43"/>
+	</game>
+	<game name="I've Got Your Number (USA, Europe)">
+		<description>I've Got Your Number (USA, Europe)</description>
+		<rom name="I've Got Your Number (USA, Europe).bin" size="2048" crc="1C8368E7" md5="A3C4D975FCABBEE4FDB253EB414242EE" sha1="498CB0882D8A692042889E83775A83CF267A1837"/>
+	</game>
+	<game name="Invaders from Hyperspace (USA)">
+		<description>Invaders from Hyperspace (USA)</description>
+		<rom name="Invaders from Hyperspace (USA).bin" size="2048" crc="AD7A9A11" md5="5F21DD12F47AC805EC69DC5CD3B977F1" sha1="00032798BD4CC01323E663E98634B82A74B0DC53"/>
+	</game>
+	<game name="K.C. Munchkin (USA)">
+		<description>K.C. Munchkin (USA)</description>
+		<rom name="K.C. Munchkin (USA).bin" size="4096" crc="7108E058" md5="2E528BD850F9A658B0AF6BFE1891A4FA" sha1="D273CF993DFCBCA3B65CD4959B45A3009F242BC6"/>
+	</game>
+	<game name="K.C.'s Krazy Chase (USA, Europe)">
+		<description>K.C.'s Krazy Chase (USA, Europe)</description>
+		<rom name="K.C.'s Krazy Chase (USA, Europe).bin" size="4096" crc="A6909A8B" md5="27EADDEDA2F30AD4A5310C6E9BDD9DC2" sha1="3391E48C0048A2F588D8238BB202E2EC346A6AD4"/>
+	</game>
+	<game name="Keyboard Creations (USA)">
+		<description>Keyboard Creations (USA)</description>
+		<rom name="Keyboard Creations (USA).bin" size="2048" crc="688FAD11" md5="84AE1A8159716266F7AAE16AD7DFD062" sha1="8276CA41E571478EAE2DD6ADD7F79BC7F8BD60DE"/>
+	</game>
+	<game name="Killer Bees (USA)">
+		<description>Killer Bees (USA)</description>
+		<rom name="Killer Bees (USA).bin" size="8192" crc="B096654E" md5="5E7A037E1AA1F59AD2BE80452F81CC38" sha1="B446A2730AEFAFE71394DBB9850D43C5CF01D367"/>
+	</game>
+	<game name="Las Vegas Blackjack (USA, Europe)">
+		<description>Las Vegas Blackjack (USA, Europe)</description>
+		<rom name="Las Vegas Blackjack (USA, Europe).bin" size="2048" crc="6F66B1F7" md5="972D38914E5AA8E80460B7D32C7C94B5" sha1="3E10FC687B1D07612305F680F24590F99842E62B"/>
+	</game>
+	<game name="Matchmaker + Logix + Buzzword (USA)">
+		<description>Matchmaker + Logix + Buzzword (USA)</description>
+		<rom name="Matchmaker + Logix + Buzzword (USA).bin" size="2048" crc="BBF276A0" md5="73A584CA53FAD9289CA01A58ECCC52B5" sha1="908387D2446F4C62019017FE262B412DFA040D10"/>
+	</game>
+	<game name="Math-A-Magic + Echo (USA, Europe)">
+		<description>Math-A-Magic + Echo (USA, Europe)</description>
+		<rom name="Math-A-Magic + Echo (USA, Europe).bin" size="2048" crc="DC5AFAA2" md5="9AA512409F1E3D10BFE2C2F2924C7A31" sha1="4DAC55DE1AFADC1AF2AC9166D7D47C462A8E797A"/>
+	</game>
+	<game name="Monkeyshines (USA, Europe)">
+		<description>Monkeyshines (USA, Europe)</description>
+		<rom name="Monkeyshines (USA, Europe).bin" size="4096" crc="FEE664F3" md5="4388131DBCE3B68A7D46F80BAFC4A828" sha1="6D6659539934255711357537D4FA6E969C3C4754"/>
+	</game>
+	<game name="Nimble Numbers Ned (USA)">
+		<description>Nimble Numbers Ned (USA)</description>
+		<rom name="Nimble Numbers Ned (USA).bin" size="4096" crc="CF2F8E7A" md5="98B2ED525AA9C060E8BE6C6210D16E41" sha1="01DD021A1BCDAFB58CB2BCCA051934F05E978C53"/>
+	</game>
+	<game name="Out of this World + Helicopter Rescue (USA)">
+		<description>Out of this World + Helicopter Rescue (USA)</description>
+		<rom name="Out of this World + Helicopter Rescue (USA).bin" size="2048" crc="0C2E4811" md5="21A8E6A7441A2990052E38F85A606DB4" sha1="C6A79E721EE501D82D9A1C4F71F98BC23F1E7C7E"/>
+	</game>
+	<game name="P.T. Barnum's Acrobats (USA)">
+		<description>P.T. Barnum's Acrobats (USA)</description>
+		<rom name="P.T. Barnum's Acrobats (USA).bin" size="4096" crc="874F36A4" md5="0812533CE84C9E28E699AF8BAEC7DF25" sha1="661A73BD490CC592815F742EB33B2D3F0066BE41"/>
+	</game>
+	<game name="Pachinko (USA, Europe)">
+		<description>Pachinko (USA, Europe)</description>
+		<rom name="Pachinko (USA, Europe).bin" size="2048" crc="239DF97D" md5="E00CA4155B88AACB044A2598C2180158" sha1="FFD525D5C6023409AFDCDB2AFBDA227BC4568304"/>
+	</game>
+	<game name="Pick Axe Pete (USA, Europe)">
+		<description>Pick Axe Pete (USA, Europe)</description>
+		<rom name="Pick Axe Pete (USA, Europe).bin" size="4096" crc="D62814A3" md5="FFA665173861C544219565E000F79173" sha1="B979ED0C2B8947F764786FCF4444463B3D3AE87D"/>
+	</game>
+	<game name="Pocket Billiards (USA, Europe)">
+		<description>Pocket Billiards (USA, Europe)</description>
+		<rom name="Pocket Billiards (USA, Europe).bin" size="2048" crc="24D53E2C" md5="3F0223DD8609FE320264E45EEEEFE367" sha1="8ABD1057202EBAC12ACF3822ED4D965BBA02B7DE"/>
+	</game>
+	<game name="Power Lords (USA) (Alt 1)">
+		<description>Power Lords (USA) (Alt 1)</description>
+		<rom name="Power Lords (USA) (Alt 1).bin" size="8192" crc="3351FEDA" md5="67943D1BBA7CDF707305EDC14FEABC46" sha1="21931AB2B959ED532BE36563CC84297FB53C8A21"/>
+	</game>
+	<game name="Power Lords (USA)">
+		<description>Power Lords (USA)</description>
+		<rom name="Power Lords (USA).bin" size="4096" crc="40AE062D" md5="8200734B7A6217B4847939ACD3CC1601" sha1="E81570282B8ADE6B7C0D126C819A95C7011CD063"/>
+	</game>
+	<game name="Quest for the Rings (USA, Europe)">
+		<description>Quest for the Rings (USA, Europe)</description>
+		<rom name="Quest for the Rings (USA, Europe).bin" size="4096" crc="9451BE1E" md5="0B105A40C8FF6AE7728006CF80C4DDB7" sha1="32759C8D502CD8B959DA5F03351DB7CD46C8F96A"/>
+	</game>
+	<game name="Showdown in 2100 A.D. (USA)">
+		<description>Showdown in 2100 A.D. (USA)</description>
+		<rom name="Showdown in 2100 A.D. (USA).bin" size="2048" crc="9487C920" md5="ADD9A7CFAC93608DB1845E49F3594964" sha1="7163C3E0D0E926287DF670BFA5D5D5C42B5B3CF6"/>
+	</game>
+	<game name="Sid the Spellbinder (USA)">
+		<description>Sid the Spellbinder (USA)</description>
+		<rom name="Sid the Spellbinder (USA).bin" size="4096" crc="1B9F2F16" md5="23BA6403E7206063D65DEC507A30664A" sha1="DFED128D213D4192313F85FE2B8716579C2FC995"/>
+	</game>
+	<game name="Smithereens (USA)">
+		<description>Smithereens (USA)</description>
+		<rom name="Smithereens (USA).bin" size="4096" crc="67069924" md5="ED77BEEB30711F8EE03A23A4577F403A" sha1="FC798F3CF770E8BF5F9A4064B6A4CA66E5A4EB71"/>
+	</game>
+	<game name="Speedway + Spin-out + Crypto-logic (USA, Europe)">
+		<description>Speedway + Spin-out + Crypto-logic (USA, Europe)</description>
+		<rom name="Speedway + Spin-out + Crypto-logic (USA, Europe).bin" size="2048" crc="4EDA4917" md5="BC66AB63FB5CE04A79AEF9E8FA445225" sha1="29D078F587BE2AFA4612800C64A5AF72705E5681"/>
+	</game>
+	<game name="Take the Money and Run (USA, Europe)">
+		<description>Take the Money and Run (USA, Europe)</description>
+		<rom name="Take the Money and Run (USA, Europe).bin" size="2048" crc="11FF50AD" md5="B2D810DCB97E38192A6DD3D213DBCE10" sha1="8C181F4835D53A358ECB8E4385E087EE942B4B4F"/>
+	</game>
+	<game name="Thunderball (USA, Europe)">
+		<description>Thunderball (USA, Europe)</description>
+		<rom name="Thunderball (USA, Europe).bin" size="2048" crc="2C9D1715" md5="0602FD990F5E43BBAB23004286319B60" sha1="D0070E12D6B0F406DAB6E1FA550AB01509C9362E"/>
+	</game>
+	<game name="Turtles (USA)">
+		<description>Turtles (USA)</description>
+		<rom name="Turtles (USA).bin" size="8192" crc="9E42E766" md5="07737E70C041742DBCD8C52EFDA4EDAB" sha1="EE456305397ECBD54FFFA0BB7A894F53976D2A7C"/>
+	</game>
+	<game name="Type &amp; Tell (USA)">
+		<description>Type &amp; Tell (USA)</description>
+		<rom name="Type &amp; Tell (USA).bin" size="4096" crc="B936BD78" md5="49ABEE5DDD1B475FE4CBB997F7EE83EF" sha1="40458EAF84A71F509B4069775E49551CE5152697"/>
+	</game>
+	<game name="UFO (USA)">
+		<description>UFO (USA)</description>
+		<rom name="UFO (USA).bin" size="2048" crc="2B1E9E19" md5="7EBD2526D8C17B01B882E39E972C2691" sha1="0E819A4B0F17520DA24FF79901197F5397CB9A26"/>
+	</game>
+	<game name="Volleyball (USA, Europe)">
+		<description>Volleyball (USA, Europe)</description>
+		<rom name="Volleyball (USA, Europe).bin" size="2048" crc="D3B09FEC" md5="8F2B2EADCC1BD72366DB49C89B576EB4" sha1="830C9B3628F2E9C4F8C882024DD912B9D7610765"/>
+	</game>
+	<game name="War of Nerves (USA, Europe)">
+		<description>War of Nerves (USA, Europe)</description>
+		<rom name="War of Nerves (USA, Europe).bin" size="2048" crc="58FA6766" md5="30249D4A85B18F0320F1B5A00E55B5C7" sha1="E56B674C832E5A7CAD977CC76779548FDD2F338E"/>
+	</game>
+</datafile>

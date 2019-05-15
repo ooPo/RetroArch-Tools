@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Nintendo - Virtual Boy</name>
+		<description>Nintendo - Virtual Boy</description>
+		<version>20190117-072533</version>
+		<author>BigFred, BitLooter, C. V. Reynolds, omonim2007, Rifu, Tauwasser, xuom2</author>
+		<homepage>No-Intro</homepage>
+		<url>http://www.no-intro.org</url>
+	</header>
+	<game name="3-D Tetris (USA)">
+		<description>3-D Tetris (USA)</description>
+		<rom name="3-D Tetris (USA).vb" size="1048576" crc="BB71B522" md5="ECF1218706E9B547EAB9E4BE58D54E21" sha1="5177015A91442E56BD76AF39447BCA365E06C272" status="verified"/>
+	</game>
+	<game name="Galactic Pinball (Japan, USA)">
+		<description>Galactic Pinball (Japan, USA)</description>
+		<rom name="Galactic Pinball (Japan, USA).vb" size="1048576" crc="C9710A36" md5="85260599FDADA2E137053A8647AA0D06" sha1="93A25ABF4F86E71A49C1C3A470140BB40CB693D6" status="verified"/>
+	</game>
+	<game name="Golf (USA)">
+		<description>Golf (USA)</description>
+		<rom name="Golf (USA).vb" size="2097152" crc="2199AF41" md5="977C4DA800DACFAC1A1402781670F872" sha1="23CE3C174789CDD306497D86CB2C4E76BA8B06E5" status="verified"/>
+	</game>
+	<game name="Jack Bros. (USA)">
+		<description>Jack Bros. (USA)</description>
+		<rom name="Jack Bros. (USA).vb" size="1048576" crc="A44DE03C" md5="EE873C9969C15E92CA9A0F689C4CE5EA" sha1="0E086D7EF2BD8B97315196943FD0B71DA07AA8F1" status="verified"/>
+	</game>
+	<game name="Mario Clash (Japan, USA)">
+		<description>Mario Clash (Japan, USA)</description>
+		<rom name="Mario Clash (Japan, USA).vb" size="1048576" crc="A47DE78C" md5="B1B3A25CE8FB4F406BF82B8765D307D0" sha1="7556A778B60490BDB81774BCBAA7413FC84CB985" status="verified"/>
+	</game>
+	<game name="Mario's Tennis (Japan, USA)">
+		<description>Mario's Tennis (Japan, USA)</description>
+		<rom name="Mario's Tennis (Japan, USA).vb" size="524288" crc="7CE7460D" md5="38ECC2C5A745A80D32EB9E8E413358C4" sha1="5162F7FA9E3EAE4338C53CCBA641BA080C768754" status="verified"/>
+	</game>
+	<game name="Nester's Funky Bowling (USA)">
+		<description>Nester's Funky Bowling (USA)</description>
+		<rom name="Nester's Funky Bowling (USA).vb" size="2097152" crc="DF4D56B4" md5="0285DC41D75BE8419D12472F20025305" sha1="F4A4C7928F15102CF14C90C5F044E5F7CC7C32F9" status="verified"/>
+	</game>
+	<game name="Panic Bomber (USA)">
+		<description>Panic Bomber (USA)</description>
+		<rom name="Panic Bomber (USA).vb" size="524288" crc="19BB2DFB" md5="467247D5E3383D066005565BF8218436" sha1="80216B2874CF162F301D571BB8AEBC98D80B4F3E" status="verified"/>
+	</game>
+	<game name="Red Alarm (USA)">
+		<description>Red Alarm (USA)</description>
+		<rom name="Red Alarm (USA).vb" size="1048576" crc="AA10A7B4" md5="E56E85761F52A613B34079D5322088CE" sha1="494FA60CB8997880B4E8CD3270B21D6C2768A48A" status="verified"/>
+	</game>
+	<game name="Teleroboxer (Japan, USA)">
+		<description>Teleroboxer (Japan, USA)</description>
+		<rom name="Teleroboxer (Japan, USA).vb" size="1048576" crc="36103000" md5="0742A861A599FE3361AAC6EBEF6745A7" sha1="C59E020F9674774C5CBC022317EBBA0EB1D744F7" status="verified"/>
+	</game>
+	<game name="Vertical Force (USA)">
+		<description>Vertical Force (USA)</description>
+		<rom name="Vertical Force (USA).vb" size="1048576" crc="4C32BA5E" md5="87C38F66D5B9EAD72AF22F515A3A5F51" sha1="38F9008F60B09DEEF1151D46B905B090A0338200" status="verified"/>
+	</game>
+	<game name="Virtual Boy Wario Land (Japan, USA)">
+		<description>Virtual Boy Wario Land (Japan, USA)</description>
+		<rom name="Virtual Boy Wario Land (Japan, USA).vb" size="2097152" crc="133E9372" md5="FB4DC9F4EBD506702EB49E99A62BD803" sha1="274C328FBD904F20E69172AB826BF8F94CED1BDB" status="verified"/>
+	</game>
+	<game name="Virtual League Baseball (USA)">
+		<description>Virtual League Baseball (USA)</description>
+		<rom name="Virtual League Baseball (USA).vb" size="1048576" crc="736B40D6" md5="2BA914C8AA16F2F9230B3C5B7E17E67B" sha1="266FE615EE3DF1160A20B456824699F16810FA28" status="verified"/>
+	</game>
+	<game name="Waterworld (USA)">
+		<description>Waterworld (USA)</description>
+		<rom name="Waterworld (USA).vb" size="2097152" crc="82A95E51" md5="110A83BC070559C5CC5634A8B5CAE274" sha1="DCC46484BD0ACAB0AC1EA178F425A0F5CCFB8DC2" status="verified"/>
+	</game>
+</datafile>

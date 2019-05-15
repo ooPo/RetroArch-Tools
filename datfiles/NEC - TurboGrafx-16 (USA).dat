@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>NEC - PC Engine - TurboGrafx 16</name>
+		<description>NEC - PC Engine - TurboGrafx 16</description>
+		<version>20190422-192224</version>
+		<author>C. V. Reynolds, fuzzball, Gefflon, kazumi213, Money_114, omonim2007, Rifu, xuom2</author>
+		<homepage>No-Intro</homepage>
+		<url>http://www.no-intro.org</url>
+	</header>
+	<game name="[BIOS] TurboGrafx CD Super System Card (USA) (v3.0)">
+		<description>[BIOS] TurboGrafx CD Super System Card (USA) (v3.0)</description>
+		<rom name="[BIOS] TurboGrafx CD Super System Card (USA) (v3.0).pce" size="262144" crc="2B5B75FE" md5="0754F903B52E3B3342202BDAFB13EFA5" sha1="D02611D99921986147C753DF14C7349B31D71950"/>
+	</game>
+	<game name="[BIOS] TurboGrafx CD System Card (USA) (v2.0)">
+		<description>[BIOS] TurboGrafx CD System Card (USA) (v2.0)</description>
+		<rom name="[BIOS] TurboGrafx CD System Card (USA) (v2.0).pce" size="262144" crc="FF2A5EC3" md5="94279F315E8B52904F65AB3108542AFE" sha1="2BEA3DAC98F84B2F2F469FA77EA720B8770D598D"/>
+	</game>
+	<game name="Aero Blasters (USA)">
+		<description>Aero Blasters (USA)</description>
+		<rom name="Aero Blasters (USA).pce" size="524288" crc="B03E0B32" md5="B2B62BAAB5FEFAFC5DB6538720B503C3" sha1="23B7DA6A6067563AF5FDF303D83ADEAE818CDCDF"/>
+	</game>
+	<game name="Air Zonk (USA)">
+		<description>Air Zonk (USA)</description>
+		<rom name="Air Zonk (USA).pce" size="524288" crc="933D5BCC" md5="406BEC60FFCA9AC151A793969B0C10C6" sha1="1EE94B6016FFDF996409955287E8799019A68658" status="verified"/>
+	</game>
+	<game name="Alien Crush (USA)">
+		<description>Alien Crush (USA)</description>
+		<rom name="Alien Crush (USA).pce" size="262144" crc="EA488494" md5="0088D1D20861490677EDB147D2DE60BD" sha1="1BFA4B5139612B0C33E3282C23E56C1DFC08ED52" status="verified"/>
+	</game>
+	<game name="Andre Panza Kick Boxing (USA)">
+		<description>Andre Panza Kick Boxing (USA)</description>
+		<rom name="Andre Panza Kick Boxing (USA).pce" size="524288" crc="A980E0E9" md5="F9FDABCEFA6E69ABA547B1A5113A133F" sha1="B21023FCF1B16B8EF9890E8087BAB71A43253700"/>
+	</game>
+	<game name="Ballistix (USA)">
+		<description>Ballistix (USA)</description>
+		<rom name="Ballistix (USA).pce" size="262144" crc="420FA189" md5="9610910760ED0C034961866CEB7D4E23" sha1="8F65C5B459B477ADC97AB7809CA8E85329F25769"/>
+	</game>
+	<game name="Battle Royale (USA)">
+		<description>Battle Royale (USA)</description>
+		<rom name="Battle Royale (USA).pce" size="524288" crc="E70B01AF" md5="BEB2B4486ED8A66F0DF10E260BDC5224" sha1="07B39D5315AA07BF880B89B10DC3C01ED7CED5AB"/>
+	</game>
+	<game name="Blazing Lazers (USA)">
+		<description>Blazing Lazers (USA)</description>
+		<rom name="Blazing Lazers (USA).pce" size="393216" crc="B4A1B0F6" md5="3C2F85FC7898DE73A7C789033D22B8F5" sha1="13712AAEE596AD96AB743D5E82ED96895089AFEB" status="verified"/>
+	</game>
+	<game name="Bloody Wolf (USA)">
+		<description>Bloody Wolf (USA)</description>
+		<rom name="Bloody Wolf (USA).pce" size="524288" crc="37BAF6BC" md5="F19869D1823A28E8472452BAF697CF56" sha1="45F8762414FB6B581B6159908CC35B2607ECF237" status="verified"/>
+	</game>
+	<game name="Bomberman (USA)">
+		<description>Bomberman (USA)</description>
+		<rom name="Bomberman (USA).pce" size="262144" crc="5F6F3C2A" md5="22945308EB41396F39C00444BE9F251F" sha1="DC63680E579764BBACB7F07514F4F49AB888D3B1"/>
+	</game>
+	<game name="Bomberman '93 (USA)">
+		<description>Bomberman '93 (USA)</description>
+		<rom name="Bomberman '93 (USA).pce" size="524288" crc="56171C1C" md5="795321485B7D58701CD5B661D6AD636A" sha1="709B47DE6E0EBC18FB80C951D5CFAA6CE82D6CE0"/>
+	</game>
+	<game name="Bomberman '93 (USA, Europe) (Virtual Console)">
+		<description>Bomberman '93 (USA, Europe) (Virtual Console)</description>
+		<rom name="Bomberman '93 (USA, Europe) (Virtual Console).pce" size="524288" crc="4C7BA73B" md5="32E20C5B317F599060195D3276DADDD2" sha1="B5E2FC745723634D9955A3D3418BA21859893A7B" status="verified"/>
+	</game>
+	<game name="Bonk 3 - Bonk's Big Adventure (USA)">
+		<description>Bonk 3 - Bonk's Big Adventure (USA)</description>
+		<rom name="Bonk 3 - Bonk's Big Adventure (USA).pce" size="1048576" crc="5A3F76D8" md5="F4922BC12AC5C46C29D18D21E34F910F" sha1="B966DF0281F7FAB4536AFC166278E1BEC0D926C4" status="verified"/>
+	</game>
+	<game name="Bonk's Adventure (USA)">
+		<description>Bonk's Adventure (USA)</description>
+		<rom name="Bonk's Adventure (USA).pce" size="393216" crc="599EAD9B" md5="3AA21326050C489EA867DE05DD6CB7E5" sha1="403C4FBDB617CEA5B8CD0C8D06AE988F6AEF93BD" status="verified"/>
+	</game>
+	<game name="Bonk's Revenge (USA, Europe) (Virtual Console)">
+		<description>Bonk's Revenge (USA, Europe) (Virtual Console)</description>
+		<rom name="Bonk's Revenge (USA, Europe) (Virtual Console).pce" size="524288" crc="F36FFEE1" md5="34E8B8C01D7721A33C7D131F77C8C082" sha1="A9908331D835CE3F6AE301E2A6232FE59861C454" status="verified"/>
+	</game>
+	<game name="Bonk's Revenge (USA)">
+		<description>Bonk's Revenge (USA)</description>
+		<rom name="Bonk's Revenge (USA).pce" size="524288" crc="14250F9A" md5="DD97FE7E1572FE65FCB44E2757764B16" sha1="1F6C2766507D72FB55FBF84D2A8B45CF86709C0B"/>
+	</game>
+	<game name="Boxyboy (USA)">
+		<description>Boxyboy (USA)</description>
+		<rom name="Boxyboy (USA).pce" size="131072" crc="605BE213" md5="C316AD2E57400FEAF16FCAFF67935B00" sha1="7E165324D735A20156FD90AC97D0BF1C115E0A02"/>
+	</game>
+	<game name="Bravoman (USA)">
+		<description>Bravoman (USA)</description>
+		<rom name="Bravoman (USA).pce" size="524288" crc="CCA08B02" md5="F60F3D46B7FAB6060C3BE9AAD2103558" sha1="6FB31AF03A5370C5C9BC280E0F8F8169D114150B" status="verified"/>
+	</game>
+	<game name="Cadash (USA)">
+		<description>Cadash (USA)</description>
+		<rom name="Cadash (USA).pce" size="524288" crc="BB0B3AEF" md5="617A4254C05E88145110718951039E61" sha1="31C9692BA8C7EAB995A6D3AB1E2079B69B47847F"/>
+	</game>
+	<game name="Champions Forever Boxing (USA)">
+		<description>Champions Forever Boxing (USA)</description>
+		<rom name="Champions Forever Boxing (USA).pce" size="524288" crc="15EE889A" md5="FCD3E7F105514B61FF25DC3477F8B138" sha1="DB7005B4679276BC65D04A45DA131DB7B47BAE75"/>
+	</game>
+	<game name="Chase H.Q. (USA)">
+		<description>Chase H.Q. (USA)</description>
+		<rom name="Chase H.Q. (USA).pce" size="393216" crc="9298254C" md5="B6098CEF5A4729009D446603C650E323" sha1="D29A7440573324B5560185E6E012CB54A77E88F2" status="verified"/>
+	</game>
+	<game name="Chew-Man-Fu (USA)">
+		<description>Chew-Man-Fu (USA)</description>
+		<rom name="Chew-Man-Fu (USA).pce" size="262144" crc="8CD13E9A" md5="FF32565F935AF07372E1DFD0AC7FBE78" sha1="5C742FE5D5AF5628BA0E598CB88ABD892DC87682" status="verified"/>
+	</game>
+	<game name="China Warrior (USA)">
+		<description>China Warrior (USA)</description>
+		<rom name="China Warrior (USA).pce" size="262144" crc="A2EE361D" md5="60BB0116B706FC30A76840ED0B5DA458" sha1="1933869F66F30DA4BC07B9FF6B6C2897B32088F2" status="verified"/>
+	</game>
+	<game name="Cratermaze (USA)">
+		<description>Cratermaze (USA)</description>
+		<rom name="Cratermaze (USA).pce" size="262144" crc="9033E83A" md5="653C1BE1F0F5E032BC3EC6B4E2823B98" sha1="2FA767E37F3D2A272861F969BDC7A3435F207FBF" status="verified"/>
+	</game>
+	<game name="Cyber Core (USA)">
+		<description>Cyber Core (USA)</description>
+		<rom name="Cyber Core (USA).pce" size="393216" crc="4CFB6E3E" md5="C16B1AEE2D7023B410DD5E513C4AEC0B" sha1="D0765259B06B12DFDA66D8B861954EBC62022440"/>
+	</game>
+	<game name="Darkwing Duck (USA)">
+		<description>Darkwing Duck (USA)</description>
+		<rom name="Darkwing Duck (USA).pce" size="524288" crc="4AC97606" md5="D2A603FAD8DF15B3C617B7E8B24E8606" sha1="8C0CF2B058DAEF3FF5438808BFD48B9393C23B58"/>
+	</game>
+	<game name="Davis Cup Tennis (USA)">
+		<description>Davis Cup Tennis (USA)</description>
+		<rom name="Davis Cup Tennis (USA).pce" size="524288" crc="9EDAB596" md5="B45D198D7895D10E41F308427DAB6B3F" sha1="7E3AD77375D9C62E060CD6F6E57493196A4A739D"/>
+	</game>
+	<game name="Dead Moon (USA)">
+		<description>Dead Moon (USA)</description>
+		<rom name="Dead Moon (USA).pce" size="524288" crc="F5D98B0B" md5="47E3D20A759659E30CEF20AAAA5731B0" sha1="B289533A795EF874CC9BAC158E3035101F892475" status="verified"/>
+	</game>
+	<game name="Deep Blue (USA)">
+		<description>Deep Blue (USA)</description>
+		<rom name="Deep Blue (USA).pce" size="262144" crc="16B40B44" md5="AE3165E430F12FD57DE382AB34E16DEE" sha1="91B8DD861D848033BB95B0C8C5E878EE827FEF41"/>
+	</game>
+	<game name="Devil's Crush (USA)">
+		<description>Devil's Crush (USA)</description>
+		<rom name="Devil's Crush (USA).pce" size="393216" crc="157B4492" md5="92FBE89D4C87BF283DBFBEAC69A64E6E" sha1="1C54FB80E5ACF82D7346DD7F2E8DB8C74C58F4BA" status="verified"/>
+	</game>
+	<game name="Double Dungeons (USA)">
+		<description>Double Dungeons (USA)</description>
+		<rom name="Double Dungeons (USA).pce" size="262144" crc="4A1A8C60" md5="5BA010CD617C6F2B0F6E926FD4EF8A42" sha1="4E81F6CFA47ED941922492889BE432041FF99E25" status="verified"/>
+	</game>
+	<game name="Dragon Spirit (USA)">
+		<description>Dragon Spirit (USA)</description>
+		<rom name="Dragon Spirit (USA).pce" size="262144" crc="086F148C" md5="1FE13078C7ABA4EF0777D5A470D56986" sha1="3BDD082360335232715633B469DA71AB2597279D" status="verified"/>
+	</game>
+	<game name="Dragon's Curse (USA)">
+		<description>Dragon's Curse (USA)</description>
+		<rom name="Dragon's Curse (USA).pce" size="262144" crc="7D2C4B09" md5="55153240FE1D0076C4F759B82F2D7E3E" sha1="39B382725E38D6303AE2B19F1CABBD96CA661B07" status="verified"/>
+	</game>
+	<game name="Drop Off (USA)">
+		<description>Drop Off (USA)</description>
+		<rom name="Drop Off (USA).pce" size="262144" crc="FEA27B32" md5="7DF6342574ED3E0241029A11F1F5C4DA" sha1="54BB6EA11ACA4CA6A16BA439828BA1F6FADA3623" status="verified"/>
+	</game>
+	<game name="Dungeon Explorer (USA)">
+		<description>Dungeon Explorer (USA)</description>
+		<rom name="Dungeon Explorer (USA).pce" size="393216" crc="4FF01515" md5="A07C43BEA439C8C904BC4908737AF5C5" sha1="D6D18128D55D886A9B6A8C8EA65AF76E783001F9" status="verified"/>
+	</game>
+	<game name="Dungeons &amp; Dragons - Order of the Griffon (USA)">
+		<description>Dungeons &amp; Dragons - Order of the Griffon (USA)</description>
+		<rom name="Dungeons &amp; Dragons - Order of the Griffon (USA).pce" size="524288" crc="FAE0FC60" md5="30FA2B6C1083E1B382FCAA2CAC782E08" sha1="BBFDCAAED7ED9C96364E3CA36807B9AC3BAC8622"/>
+	</game>
+	<game name="Falcon (USA)">
+		<description>Falcon (USA)</description>
+		<rom name="Falcon (USA).pce" size="524288" crc="0BC0A12B" md5="23ECE73EAC29304B0300CEBCF52841A4" sha1="F02871EF343A59723F1EAF7AEE36C626F15E12B2"/>
+	</game>
+	<game name="Fantasy Zone (USA)">
+		<description>Fantasy Zone (USA)</description>
+		<rom name="Fantasy Zone (USA).pce" size="262144" crc="E8C3573D" md5="0C5FC299491C50C2D2F532308597A159" sha1="7C419163D860691DFEA9720639921190E20E3C97"/>
+	</game>
+	<game name="Final Lap Twin (USA)">
+		<description>Final Lap Twin (USA)</description>
+		<rom name="Final Lap Twin (USA).pce" size="393216" crc="26408EA3" md5="70EA7C2D63FCC6A9719A85BBA9CEBC04" sha1="7EC6E816C4D89943D06DC88108EE415ED1F57BE9"/>
+	</game>
+	<game name="Galaga '90 (USA)">
+		<description>Galaga '90 (USA)</description>
+		<rom name="Galaga '90 (USA).pce" size="262144" crc="2909DEC6" md5="94814DB23E163DBFC7D7505170E145C2" sha1="FF73A144EB2DA537D0E1A3C8C56EF197FD6CE1CE" status="verified"/>
+	</game>
+	<game name="Ghost Manor (USA)">
+		<description>Ghost Manor (USA)</description>
+		<rom name="Ghost Manor (USA).pce" size="524288" crc="2DB4C1FD" md5="2F2D4D92C14BA5770EDD5F449507AAC8" sha1="7092A265599194A280ECA9314B496079CC49DCBD"/>
+	</game>
+	<game name="Gunboat (USA)">
+		<description>Gunboat (USA)</description>
+		<rom name="Gunboat (USA).pce" size="524288" crc="F370B58E" md5="58DAFF928A279867CD0629185D2C0733" sha1="0DF6EDE67061F5BCA487FA01A8EA71640EF673A5"/>
+	</game>
+	<game name="Hit the Ice - VHL - The Official Video Hockey League (USA)">
+		<description>Hit the Ice - VHL - The Official Video Hockey League (USA)</description>
+		<rom name="Hit the Ice - VHL - The Official Video Hockey League (USA).pce" size="393216" crc="8B29C3AA" md5="D2F94B64B528C320D5EE148FE77F05F5" sha1="19F201FFEB790C4D5685E5241CF5B37C25E15480"/>
+	</game>
+	<game name="Impossamole (USA)">
+		<description>Impossamole (USA)</description>
+		<rom name="Impossamole (USA).pce" size="524288" crc="E2470F5F" md5="D212A1BBB8D329D05910DC407CA60173" sha1="BDA974DFEBE28C125F081363DA3BBE96777404D7"/>
+	</game>
+	<game name="J.J. &amp; Jeff (USA)">
+		<description>J.J. &amp; Jeff (USA)</description>
+		<rom name="J.J. &amp; Jeff (USA).pce" size="262144" crc="E01C5127" md5="B614F91296AAED8AFABD4F03F4EE40D1" sha1="18AE2D9031F49E54145D83FF90DF4189C36ADEF1" status="verified"/>
+	</game>
+	<game name="Jack Nicklaus' Turbo Golf (USA)">
+		<description>Jack Nicklaus' Turbo Golf (USA)</description>
+		<rom name="Jack Nicklaus' Turbo Golf (USA).pce" size="262144" crc="83384572" md5="CF2610A2BE004EDFA2FAA487B81386E3" sha1="49D240EC70E4F7CC98A14E4E4E5A0857BC1EE737"/>
+	</game>
+	<game name="Jackie Chan's Action Kung Fu (USA)">
+		<description>Jackie Chan's Action Kung Fu (USA)</description>
+		<rom name="Jackie Chan's Action Kung Fu (USA).pce" size="524288" crc="9D2F6193" md5="5A8C0F70F333FF03C8EB836EEB5F2FF9" sha1="33EE18E3CD6BA59FFCA70FA7A1322D6E44A08682"/>
+	</game>
+	<game name="Keith Courage in Alpha Zones (USA)">
+		<description>Keith Courage in Alpha Zones (USA)</description>
+		<rom name="Keith Courage in Alpha Zones (USA).pce" size="262144" crc="474D7A72" md5="E5309B10903CCC3032C2F919E8DB7384" sha1="09F37CF6DDBBF202994D88AC62225CA027E791AC"/>
+	</game>
+	<game name="King of Casino (USA)">
+		<description>King of Casino (USA)</description>
+		<rom name="King of Casino (USA).pce" size="262144" crc="2F2E2240" md5="8F4E92645BE8DE92E18527B31B4EE67E" sha1="B3BCA08F73E6E1949B1F969A3D3E8A71B705673A"/>
+	</game>
+	<game name="Klax (USA)">
+		<description>Klax (USA)</description>
+		<rom name="Klax (USA).pce" size="262144" crc="0F1B59B4" md5="8BECF757A68F72A01428D4359165E463" sha1="4F032FDF7D836D021315BCD9B9903FDAD4907F31"/>
+	</game>
+	<game name="Legend of Hero Tonma (USA)">
+		<description>Legend of Hero Tonma (USA)</description>
+		<rom name="Legend of Hero Tonma (USA).pce" size="524288" crc="3C131486" md5="CFAA094419809446CABFE739995E22EE" sha1="A87586AE18BD36F1C32E08B8B7A55AFC6532FB3E" status="verified"/>
+	</game>
+	<game name="Legendary Axe II (USA)">
+		<description>Legendary Axe II (USA)</description>
+		<rom name="Legendary Axe II (USA).pce" size="262144" crc="220EBF91" md5="FBCBB34F678F6F70795BDE96D295BC2F" sha1="3D537FBD2A7181639D297B829CE3F7D7556E831B"/>
+	</game>
+	<game name="Legendary Axe, The (USA)">
+		<description>Legendary Axe, The (USA)</description>
+		<rom name="Legendary Axe, The (USA).pce" size="262144" crc="2D211007" md5="F69B506237CE7D05E7F839D2CC96AB5A" sha1="FC9829A802E400A088652B331E8522472F7AB2A0"/>
+	</game>
+	<game name="Magical Chase (USA)">
+		<description>Magical Chase (USA)</description>
+		<rom name="Magical Chase (USA).pce" size="524288" crc="95CD2979" md5="74D9F1BD96BA2690ED4CB989EBAEB948" sha1="50C940CC9B52167CB99DD760C25079A19FC0AA2B"/>
+	</game>
+	<game name="Military Madness (USA)">
+		<description>Military Madness (USA)</description>
+		<rom name="Military Madness (USA).pce" size="393216" crc="93F316F7" md5="03D0442DF107C97BB04C32DE7CB7F5BC" sha1="01CF6BE3FC11AF874D25FC64BFB74F2F044F1BCE" status="verified"/>
+	</game>
+	<game name="Moto Roader (USA)">
+		<description>Moto Roader (USA)</description>
+		<rom name="Moto Roader (USA).pce" size="262144" crc="E2B0D544" md5="1B10BAF9F65C8339A507E382BDA5ED44" sha1="BD92A8E6A1E860305A0943878A3B4A56DDDE5478" status="verified"/>
+	</game>
+	<game name="Neutopia (USA)">
+		<description>Neutopia (USA)</description>
+		<rom name="Neutopia (USA).pce" size="393216" crc="A9A94E1B" md5="EB0789088FC70BE42B2F994C1B66BE21" sha1="95D5FDBD6C9D6DA2F288312309C2BADD92F89CF4" status="verified"/>
+	</game>
+	<game name="Neutopia II (USA)">
+		<description>Neutopia II (USA)</description>
+		<rom name="Neutopia II (USA).pce" size="786432" crc="C4ED4307" md5="36678D3EC3B9EB534D9807BE79587C8C" sha1="D916C84955438B6FDFAEA5B7696472CE479D4FF1" status="verified"/>
+	</game>
+	<game name="New Adventure Island (USA)">
+		<description>New Adventure Island (USA)</description>
+		<rom name="New Adventure Island (USA).pce" size="524288" crc="756A1802" md5="254434D0B15618DCFF7C88D5EBDDE248" sha1="BEA7A4E5445D3A4F8610524471B83216E57F48E2" status="verified"/>
+	</game>
+	<game name="Night Creatures (USA)">
+		<description>Night Creatures (USA)</description>
+		<rom name="Night Creatures (USA).pce" size="524288" crc="C159761B" md5="E658E63F886560E9C388E2A9EE2EB349" sha1="16C4B43F92F5BC6C99FE84F71DAFF76CF1C0D0A6"/>
+	</game>
+	<game name="Ninja Spirit (USA)">
+		<description>Ninja Spirit (USA)</description>
+		<rom name="Ninja Spirit (USA).pce" size="524288" crc="DE8AF1C1" md5="ADECF9E9D9BE8A300818AD2CC09D49FE" sha1="515EB414FC404D798206FAAD33FBCC5985FBBCCB" status="verified"/>
+	</game>
+	<game name="Ordyne (USA)">
+		<description>Ordyne (USA)</description>
+		<rom name="Ordyne (USA).pce" size="524288" crc="E7BF2A74" md5="D803EB8F622521E515FF1DD715E725C0" sha1="06880CFEAF9A495CEFA49E8C4FC2E94887D1543B" status="verified"/>
+	</game>
+	<game name="Pac-Land (USA)">
+		<description>Pac-Land (USA)</description>
+		<rom name="Pac-Land (USA).pce" size="262144" crc="D6E30CCD" md5="5CC45BFE5DA979C51417E77BFE221A2B" sha1="FF74F1812196EC5C64DF4B9A78A4697D3B53EF1A"/>
+	</game>
+	<game name="Parasol Stars - The Story of Bubble Bobble III (USA)">
+		<description>Parasol Stars - The Story of Bubble Bobble III (USA)</description>
+		<rom name="Parasol Stars - The Story of Bubble Bobble III (USA).pce" size="393216" crc="E6458212" md5="DCE241D9642866F75810F6AC3E3C6A4D" sha1="C87524B4BD6E628E6F0551E8E50FDED206EBE137"/>
+	</game>
+	<game name="Power Golf (USA)">
+		<description>Power Golf (USA)</description>
+		<rom name="Power Golf (USA).pce" size="393216" crc="ED1D3843" md5="8A524C7491BD6614E9C92BB7117A57F3" sha1="A9A05CACBCAE9031FC95B54ACE08864A97AFFD6E" status="verified"/>
+	</game>
+	<game name="Psychosis (USA)">
+		<description>Psychosis (USA)</description>
+		<rom name="Psychosis (USA).pce" size="262144" crc="6CC10824" md5="C23EF1CA95A5AA6789C4172AC66D6B5D" sha1="1CFCFC95BB01B24755E1FC9C3DFEA393CB3CC3A9" status="verified"/>
+	</game>
+	<game name="R-Type (USA)">
+		<description>R-Type (USA)</description>
+		<rom name="R-Type (USA).pce" size="524288" crc="91CE5156" md5="0E0040142B5227F2B85BE27364D5EA01" sha1="7E3D4DC9E8D880AC8D813FA69AF0C6804B75CD9A" status="verified"/>
+	</game>
+	<game name="Raiden (USA)">
+		<description>Raiden (USA)</description>
+		<rom name="Raiden (USA).pce" size="786432" crc="BC59C31E" md5="5D08E419351CF3EE85E6536070CBB94F" sha1="910E7346976B7A6E83DDB7E68B49D33CED9DBC2C"/>
+	</game>
+	<game name="Samurai-Ghost (USA)">
+		<description>Samurai-Ghost (USA)</description>
+		<rom name="Samurai-Ghost (USA).pce" size="524288" crc="77A924B7" md5="6E32E0516EA74EB94A4F0BC8BD9DC47C" sha1="F6F26D8E4CAAFA7378F2756DD46569DE4042DBBB" status="verified"/>
+	</game>
+	<game name="Shockman (USA)">
+		<description>Shockman (USA)</description>
+		<rom name="Shockman (USA).pce" size="524288" crc="2774462C" md5="57C888F4AF792DC4588A2F9DBEBEA31A" sha1="F3E0F9546AFE257748496A652F138DBC318BED05" status="verified"/>
+	</game>
+	<game name="SideArms (USA)">
+		<description>SideArms (USA)</description>
+		<rom name="SideArms (USA).pce" size="262144" crc="D1993C9F" md5="A97B9AF7E814DEB4E4358A466E7CD3C2" sha1="773A372EF5EE599EBD6F048FDDB86739E255583E"/>
+	</game>
+	<game name="Silent Debuggers (USA)">
+		<description>Silent Debuggers (USA)</description>
+		<rom name="Silent Debuggers (USA).pce" size="524288" crc="FA7E5D66" md5="46719950684F5148C20730C6FD7DF4A0" sha1="C010BA9FF55A2558BBA94AC39AA0160C76DAFF0C" status="verified"/>
+	</game>
+	<game name="Sinistron (USA)">
+		<description>Sinistron (USA)</description>
+		<rom name="Sinistron (USA).pce" size="393216" crc="4F6E2DBD" md5="1C5EB68A65115ABACCD9479503FD3A2B" sha1="65DEFEEECFE60564A214B6572F94243FCFEA78E0"/>
+	</game>
+	<game name="Soldier Blade (USA)">
+		<description>Soldier Blade (USA)</description>
+		<rom name="Soldier Blade (USA).pce" size="524288" crc="4BB68B13" md5="59D23B7AF39EA827ECEB1D7E2CC363C0" sha1="3B4CC242F68A1D61C83A1A0DBDEE23D2AE8F1427" status="verified"/>
+	</game>
+	<game name="Somer Assault (USA)">
+		<description>Somer Assault (USA)</description>
+		<rom name="Somer Assault (USA).pce" size="524288" crc="8FCAF2E9" md5="0060840CB54B2DB4DB8A2927D48C6C54" sha1="BB6B5A59106BD60FBE7B1D7DEF7F73253440B49A"/>
+	</game>
+	<game name="Sonic Spike - World Championship Beach Volleyball (USA)">
+		<description>Sonic Spike - World Championship Beach Volleyball (USA)</description>
+		<rom name="Sonic Spike - World Championship Beach Volleyball (USA).pce" size="262144" crc="F74E5EB3" md5="E9A17F9E425CB6CF3E14C83EDDD7DC06" sha1="5A74EEAD0593190979028EF99A19519BAB00B3AB"/>
+	</game>
+	<game name="Space Harrier (USA)">
+		<description>Space Harrier (USA)</description>
+		<rom name="Space Harrier (USA).pce" size="524288" crc="43B05EB8" md5="B87ABA8FAAE39F238A8B2176DAEC96F4" sha1="948E6A5C30DCF945AB8332009AE4FA3AB231255A"/>
+	</game>
+	<game name="Splatterhouse (USA)">
+		<description>Splatterhouse (USA)</description>
+		<rom name="Splatterhouse (USA).pce" size="524288" crc="D00CA74F" md5="F6690EC0F440CED641718D6BC52E3FBD" sha1="E2167B5D67A065EC97763D3EE843AC2B2328C082" status="verified"/>
+	</game>
+	<game name="Super Star Soldier (USA)">
+		<description>Super Star Soldier (USA)</description>
+		<rom name="Super Star Soldier (USA).pce" size="524288" crc="DB29486F" md5="BC7D4B0852D04FE49F6E3705B899C5E5" sha1="E0C487782E155B1CF50F5FB4C8D6A24BE0301A6E" status="verified"/>
+	</game>
+	<game name="Super Volleyball (USA)">
+		<description>Super Volleyball (USA)</description>
+		<rom name="Super Volleyball (USA).pce" size="262144" crc="245040B3" md5="2B31C6C01D779EEC5BB19863E3C5AF9B" sha1="DE71722255D0136B47F63E93BEDB2ED8B3D0D4F0"/>
+	</game>
+	<game name="Takin' it to the Hoop (USA)">
+		<description>Takin' it to the Hoop (USA)</description>
+		<rom name="Takin' it to the Hoop (USA).pce" size="262144" crc="E9D51797" md5="FFBA5F3B04A2FAF9A991E8FA3A5D4008" sha1="1F36230EFDE7025730C1A0DBF3AA47B887440ECD"/>
+	</game>
+	<game name="TaleSpin (USA)">
+		<description>TaleSpin (USA)</description>
+		<rom name="TaleSpin (USA).pce" size="524288" crc="BAE9CECC" md5="729F10ADBF2B8B90D62CE79A7E48C8D1" sha1="987D16A0F329FC6831FC9B6DEA1234684925AAB4"/>
+	</game>
+	<game name="Tiger Road (USA)">
+		<description>Tiger Road (USA)</description>
+		<rom name="Tiger Road (USA).pce" size="393216" crc="985D492D" md5="189AEC122AC913609C955C7C62AAA2E2" sha1="2535994F2BE5D7B80CF5725505A4B8E30DAEF236"/>
+	</game>
+	<game name="Time Cruise (USA)">
+		<description>Time Cruise (USA)</description>
+		<rom name="Time Cruise (USA).pce" size="524288" crc="02C39660" md5="28EFE8B957A43FACBA53AFE2AEC38A69" sha1="55557A972375E58E5FCC5EE113D0CA40B332BBB2"/>
+	</game>
+	<game name="Timeball (USA)">
+		<description>Timeball (USA)</description>
+		<rom name="Timeball (USA).pce" size="131072" crc="5D395019" md5="5EA85E345F3970EC6EDF45DA758121A0" sha1="BD11EF42D932A1CF89FE7DC81A2F4B7A3EE06E4E"/>
+	</game>
+	<game name="Tricky Kick (USA)">
+		<description>Tricky Kick (USA)</description>
+		<rom name="Tricky Kick (USA).pce" size="262144" crc="48E6FD34" md5="8621C1EED634BDDC9D232BB303A2C260" sha1="3FB1BA72AF0E7AE33E35AE30CE0B7319ADECE208"/>
+	</game>
+	<game name="Turrican (USA)">
+		<description>Turrican (USA)</description>
+		<rom name="Turrican (USA).pce" size="262144" crc="EB045EDF" md5="52D40C4E0A8435308C22C69A54E4BAAE" sha1="A5830C0D5CD94E3C6F33E1799BB123857400B1BC"/>
+	</game>
+	<game name="TV Sports Basketball (USA)">
+		<description>TV Sports Basketball (USA)</description>
+		<rom name="TV Sports Basketball (USA).pce" size="524288" crc="EA54D653" md5="36DA17B2E751EC8660BB12F9CB2EB6B2" sha1="6C0FDEAFA9DC1C4B7F935866E5BC620DD3151F3C"/>
+	</game>
+	<game name="TV Sports Football (USA)">
+		<description>TV Sports Football (USA)</description>
+		<rom name="TV Sports Football (USA).pce" size="393216" crc="5E25B557" md5="94DC4D0D2A35A151B01F8A0433B12B12" sha1="B73F44AD60E0F4B13C6B80F5509CB51245CC8106"/>
+	</game>
+	<game name="TV Sports Hockey (USA)">
+		<description>TV Sports Hockey (USA)</description>
+		<rom name="TV Sports Hockey (USA).pce" size="393216" crc="97FE5BCF" md5="85B530CC0513F23F1BCCED8BE7F7E503" sha1="F5CDE3AF4FAC59E402A9C96C4ADBBC9E55CE5936"/>
+	</game>
+	<game name="Veigues - Tactical Gladiator (USA)">
+		<description>Veigues - Tactical Gladiator (USA)</description>
+		<rom name="Veigues - Tactical Gladiator (USA).pce" size="393216" crc="99D14FB7" md5="757754C27F380CE3F574BB861D641247" sha1="88A858FEEBA77031E7D2FB85E563AAFCBD9B0B39"/>
+	</game>
+	<game name="Victory Run (USA)">
+		<description>Victory Run (USA)</description>
+		<rom name="Victory Run (USA).pce" size="262144" crc="85CBD045" md5="BC4361C967514EF29293778AD748A6B7" sha1="BAB16031A16490415CEDD5BA47CBE4CADC3D8727" status="verified"/>
+	</game>
+	<game name="Vigilante (USA)">
+		<description>Vigilante (USA)</description>
+		<rom name="Vigilante (USA).pce" size="393216" crc="79D49A0D" md5="589F7CEB0BD851F6442E53858A0DC51C" sha1="F77D83AF4F1E733FAF813B5E78ECC2CBB19D3B25" status="verified"/>
+	</game>
+	<game name="World Class Baseball (USA, Europe) (Virtual Console)">
+		<description>World Class Baseball (USA, Europe) (Virtual Console)</description>
+		<rom name="World Class Baseball (USA, Europe) (Virtual Console).pce" size="262144" crc="61B3C8C8" md5="1298416A88FC063775FB165C3AD430A9" sha1="F4396A9BCAAF94A02B6C77D0B45FB3EA55AFDD84" status="verified"/>
+	</game>
+	<game name="World Class Baseball (USA)">
+		<description>World Class Baseball (USA)</description>
+		<rom name="World Class Baseball (USA).pce" size="262144" crc="4186D0C0" md5="B125AF2EDD2F27E04E693B4B5112FED7" sha1="FAB372A908533FD444B6C829F881F2DE103D93B6"/>
+	</game>
+	<game name="World Court Tennis (USA)">
+		<description>World Court Tennis (USA)</description>
+		<rom name="World Court Tennis (USA).pce" size="262144" crc="A4457DF0" md5="994D61834E2EE91313B75618CE213971" sha1="D302676C409A59628935298B95C7BA43359B29BB"/>
+	</game>
+	<game name="World Sports Competition (USA)">
+		<description>World Sports Competition (USA)</description>
+		<rom name="World Sports Competition (USA).pce" size="524288" crc="4B93F0AC" md5="E413C2A7769831419C4EFC9782DC4F97" sha1="1F301C468197C382C98692712DB2FDEE0A29525F" status="verified"/>
+	</game>
+	<game name="Yo, Bro (USA)">
+		<description>Yo, Bro (USA)</description>
+		<rom name="Yo, Bro (USA).pce" size="524288" crc="3CA7DB48" md5="8AAAD7004680EBEDE55B2C39AF87BB3B" sha1="EFFF8D352AF6C1D08899BAC77FC3DDC994E0A3BA"/>
+	</game>
+</datafile>

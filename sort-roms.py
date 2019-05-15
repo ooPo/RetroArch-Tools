@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+
+##
 ## sort-roms.py by Naomi Peori <naomi@peori.ca>
-## Scan and sort roms using No-Intro compatible datfiles.
+## Sort roms using MAME & NoIntro compatible datfiles.
+##
 
 import os
 import sys
@@ -13,80 +16,106 @@ import shutil
 ## Check the arguments.
 ##
 
-if len(sys.argv) != 5:
+if len(sys.argv) < 4:
   print "Usage:", sys.argv[0], "<source> <destination> <datfile> <offset>"
   sys.exit()
 
 source      = sys.argv[1]
 destination = sys.argv[2]
 datfile     = sys.argv[3]
-offset      = int(sys.argv[4])
+
+if len(sys.argv) > 4:
+  offset  = int(sys.argv[4])
+else:
+  offset = 0
 
 if not os.path.isdir(source):
-  print "ERROR: Source directory doesn't exist.", source
+  print "ERROR: Source directory doesn't exist:", source
   sys.exit()
 
 if not os.path.isdir(destination):
-  print "ERROR: Destination directory doesn't exist.", destination
-  sys.exit()
+  print "WARNING: Destination directory doesn't exist:", destination
+  if not os.mkdir(destination):
+    print "ERROR: Destination directory could not be created:", destination
+    sys.exit()
 
 if not os.path.isfile(datfile):
-  print "ERROR: Data file does not exist.", datfile
+  print "ERROR: Data file does not exist:", datfile
   sys.exit()
 
 if offset < 0:
   print "ERROR: Negative offsets are unsupported.", offset
   sys.exit()
 
-if offset > 0:
-  print "WARNING: Non-zero offset will skip zip files.", offset
-
 ##
 ## Load the datfile.
 ##
 
+print "Loading the datfile: "
 tree = ET.parse(datfile)
 root = tree.getroot()
+print "Done!"
 
 ##
-## File Functions
+## Parse the datfile into a faster searchable structure.
 ##
 
-def crcFromFile(filepath):
-  if os.path.isfile(filepath):
-    if filepath.endswith(".zip"):
-      with zipfile.ZipFile(filepath) as file:
-        for info in file.infolist():
-          return "%08X" % info.CRC
-    else:
-      with open(filepath,'rb') as file:
-        if offset > 0:
-          data = file.read(offset)
-        data = file.read()
-        file.close()
-        return "%08X" % (binascii.crc32(data) & 0xFFFFFFFF)
+print "Parsing the datfile:"
 
-def sizeFromFile(filepath):
-  if os.path.isfile(filepath):
-    if filepath.endswith(".zip"):
-      with zipfile.ZipFile(filepath) as file:
-        for info in file.infolist():
-          return info.file_size
-    else:
-      return os.path.getsize(filepath)
+roms = {}
+
+for game in root.findall('game') + root.findall('machine'):
+  gameName = game.get('name')
+  for rom in game.findall('rom'):
+    if not rom.get('merge'):
+      romName = rom.get('name')
+      if rom.get('size'):
+        size = int(rom.get('size'))
+      if rom.get('crc'):
+        crc = int(rom.get('crc'),16)
+      if not size in roms.keys():
+        roms[size] = {}
+      if not crc in roms[size].keys():
+        roms[size][crc] = {}
+      if not roms[size][crc]:
+        roms[size][crc] = []
+      roms[size][crc].append({'gameName': gameName, 'romName': romName})
+
+print "Done!"
 
 ##
 ## Match Functions
 ##
 
-def matchFile(filepath):
-  if os.path.isfile(filepath):
-    crc = crcFromFile(filepath)
-    size = sizeFromFile(filepath) - offset
-    for game in root.findall('game'):
-      for rom in game.findall('rom'):
-        if rom.get('crc') == crc and int(rom.get('size')) == size:
-          return rom.get('name')
+matchedFiles = 0
+
+def matchFile(file, name, crc, size):
+  if size in roms.keys():
+    rom = roms[size]
+    if crc in rom.keys():
+      matches = rom[crc]
+      for match in matches:
+        gameName = match['gameName']
+        romName  = match['romName']
+        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED) as outputFile:
+          if not romName in outputFile.namelist():
+            print "  " + name + " ==> " + gameName + "/" + romName
+            outputFile.writestr(romName, file.read(name));
+          outputFile.close()
+
+##
+## CRC Functions
+##
+
+def getCrc(file, name, crc):
+  if offset == 0:
+    return crc
+  else:
+    with file.open(name) as inputFile:
+      data = inputFile.read(offset)
+      data = inputFile.read()
+      inputFile.close()
+      return binascii.crc32(data) & 0xFFFFFFFF
 
 ##
 ## Scan Functions
@@ -98,18 +127,16 @@ def scanDirectory(directory):
       for subdirectory in subdirectories:
         scanDirectory(directory + "/" + subdirectory)
       for filename in filenames:
-        scanFile(directory + "/" + filename)
+        if filename.endswith(".zip"):
+          scanFile(directory + "/" + filename)
 
 def scanFile(filepath):
-  if not (filepath.endswith(".zip") and offset > 0):
-    match = matchFile(filepath)
-    if match:
-      filename, fileextension = os.path.splitext(filepath)
-      matchname, matchextension = os.path.splitext(match)
-      matchpath = destination + "/" + matchname + fileextension
-      if not os.path.isfile(matchpath):
-        print "COPYING:", matchpath
-        shutil.copyfile(filepath, matchpath)
+  if filepath.endswith(".zip"):
+    print filepath
+    with zipfile.ZipFile(filepath, mode="r") as file:
+      for info in file.infolist():
+        matchFile(file, info.filename, getCrc(file, info.filename, info.CRC), info.file_size - offset)
+      file.close()
 
 ##
 ## Main Program
