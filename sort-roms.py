@@ -83,25 +83,7 @@ for game in root.findall('game') + root.findall('machine'):
 print "Done!"
 
 ##
-## Match Functions
-##
-
-def matchFile(file, name, crc, size):
-  if size in roms.keys():
-    rom = roms[size]
-    if crc in rom.keys():
-      matches = rom[crc]
-      for match in matches:
-        gameName = match['gameName']
-        romName  = match['romName']
-        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED, allowZip64=True) as outputFile:
-          if not romName in outputFile.namelist():
-            print "  " + name + " ==> " + gameName + "/" + romName
-            outputFile.writestr(romName, file.read(name));
-          outputFile.close()
-
-##
-## CRC Functions
+## Helper Functions
 ##
 
 def getCrc(file, name, crc):
@@ -115,7 +97,7 @@ def getCrc(file, name, crc):
       return binascii.crc32(data) & 0xFFFFFFFF
 
 ##
-## Scan Functions
+## Functions
 ##
 
 def scanDirectory(directory):
@@ -133,6 +115,20 @@ def scanFile(filepath):
       for info in file.infolist():
         matchFile(file, info.filename, getCrc(file, info.filename, info.CRC), info.file_size - offset)
       file.close()
+
+def matchFile(file, name, crc, size):
+  if size in roms.keys():
+    rom = roms[size]
+    if crc in rom.keys():
+      matches = rom[crc]
+      for match in matches:
+        gameName = match['gameName']
+        romName  = match['romName']
+        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED, allowZip64=True) as outputFile:
+          if not romName in outputFile.namelist():
+            print "  " + name + " ==> " + gameName + "/" + romName
+            outputFile.writestr(romName, file.read(name));
+          outputFile.close()
 
 ##
 ## Main Program
