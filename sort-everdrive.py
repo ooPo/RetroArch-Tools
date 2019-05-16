@@ -51,21 +51,6 @@ with open(datfile, "r") as file:
 ## Functions
 ##
 
-def writeFile(filename, data):
-  if not os.path.isfile(filename):
-    directory = os.path.dirname(filename)
-    if not os.path.isdir(directory):
-      os.makedirs(os.path.dirname(filename))
-    with open(filename, "w") as file:
-      print "  " + filename
-      file.write(data)
-      file.close()
-
-def matchFile(file, name, crc):
-  if crc in roms.keys():
-    filename = destination + "/" + roms[crc]
-    writeFile(filename, file.read(name))
-
 def scanDirectory(directory):
   if os.path.isdir(directory):
     for dirname, subdirectories, filenames in os.walk(directory):
@@ -80,6 +65,21 @@ def scanFile(filename):
     with zipfile.ZipFile(filename, mode="r", allowZip64=True) as file:
       for info in file.infolist():
         matchFile(file, info.filename, info.CRC)
+      file.close()
+
+def matchFile(file, name, crc):
+  if crc in roms.keys():
+    filename = destination + "/" + roms[crc]
+    writeFile(filename, file.read(name))
+
+def writeFile(filename, data):
+  if not os.path.isfile(filename):
+    directory = os.path.dirname(filename)
+    if not os.path.isdir(directory):
+      os.makedirs(os.path.dirname(filename))
+    with open(filename, "w") as file:
+      print "  " + filename
+      file.write(data)
       file.close()
 
 ##
