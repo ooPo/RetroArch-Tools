@@ -22,10 +22,9 @@ if len(sys.argv) < 3:
 source  = sys.argv[1]
 datfile = sys.argv[2]
 
+offset = 0
 if len(sys.argv) > 3:
   offset  = int(sys.argv[3])
-else:
-  offset = 0
 
 if not os.path.isdir(source):
   print "ERROR: Source directory doesn't exist:", source
@@ -47,7 +46,6 @@ print "Loading the datfile: "
 tree = ET.parse(datfile)
 root = tree.getroot()
 print "Done!"
-print " "
 
 ##
 ## CRC Functions

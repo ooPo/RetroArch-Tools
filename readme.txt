@@ -26,6 +26,10 @@ sort-roms.py <source> <destination> <datfile> [offset]
   - Recursively scans the source directory and copies on match.
   - Offset, in bytes, to skip headers.
 
+sort-everdrive.py <source> <destination> <datfile>
+  - Uses EverDrive compatible datfiles.
+  - Recursively scans the source directory and copies on match.  
+
 scan-roms.sh <directory> <name>
   - Scans the directory and generates a RetroArch compatible playlist.
   - Lakka missed some of my sets so I made this to do it manually.

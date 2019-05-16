@@ -24,10 +24,9 @@ source      = sys.argv[1]
 destination = sys.argv[2]
 datfile     = sys.argv[3]
 
+offset = 0
 if len(sys.argv) > 4:
-  offset  = int(sys.argv[4])
-else:
-  offset = 0
+  offset = int(sys.argv[4])
 
 if not os.path.isdir(source):
   print "ERROR: Source directory doesn't exist:", source
@@ -35,9 +34,7 @@ if not os.path.isdir(source):
 
 if not os.path.isdir(destination):
   print "WARNING: Destination directory doesn't exist:", destination
-  if not os.mkdir(destination):
-    print "ERROR: Destination directory could not be created:", destination
-    sys.exit()
+  sys.exit()
 
 if not os.path.isfile(datfile):
   print "ERROR: Data file does not exist:", datfile
@@ -69,8 +66,10 @@ for game in root.findall('game') + root.findall('machine'):
   for rom in game.findall('rom'):
     if not rom.get('merge') and not rom.get('status') == "nodump":
       romName = rom.get('name')
+      size = 0
       if rom.get('size'):
         size = int(rom.get('size'))
+      crc = 0
       if rom.get('crc'):
         crc = int(rom.get('crc'),16)
       if not size in roms.keys():
@@ -86,8 +85,6 @@ print "Done!"
 ##
 ## Match Functions
 ##
-
-matchedFiles = 0
 
 def matchFile(file, name, crc, size):
   if size in roms.keys():
@@ -127,8 +124,7 @@ def scanDirectory(directory):
       for subdirectory in subdirectories:
         scanDirectory(dirname + "/" + subdirectory)
       for filename in filenames:
-        if filename.endswith(".zip"):
-          scanFile(dirname + "/" + filename)
+        scanFile(dirname + "/" + filename)
 
 def scanFile(filepath):
   if filepath.endswith(".zip"):
