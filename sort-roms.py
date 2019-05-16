@@ -67,7 +67,7 @@ roms = {}
 for game in root.findall('game') + root.findall('machine'):
   gameName = game.get('name')
   for rom in game.findall('rom'):
-    if not rom.get('merge'):
+    if not rom.get('merge') and not rom.get('status') == "nodump":
       romName = rom.get('name')
       if rom.get('size'):
         size = int(rom.get('size'))
@@ -97,7 +97,7 @@ def matchFile(file, name, crc, size):
       for match in matches:
         gameName = match['gameName']
         romName  = match['romName']
-        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED) as outputFile:
+        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED, allowZip64=True) as outputFile:
           if not romName in outputFile.namelist():
             print "  " + name + " ==> " + gameName + "/" + romName
             outputFile.writestr(romName, file.read(name));
@@ -125,15 +125,15 @@ def scanDirectory(directory):
   if os.path.isdir(directory):
     for dirname, subdirectories, filenames in os.walk(directory):
       for subdirectory in subdirectories:
-        scanDirectory(directory + "/" + subdirectory)
+        scanDirectory(dirname + "/" + subdirectory)
       for filename in filenames:
         if filename.endswith(".zip"):
-          scanFile(directory + "/" + filename)
+          scanFile(dirname + "/" + filename)
 
 def scanFile(filepath):
   if filepath.endswith(".zip"):
     print filepath
-    with zipfile.ZipFile(filepath, mode="r") as file:
+    with zipfile.ZipFile(filepath, mode="r", allowZip64=True) as file:
       for info in file.infolist():
         matchFile(file, info.filename, getCrc(file, info.filename, info.CRC), info.file_size - offset)
       file.close()

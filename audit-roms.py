@@ -75,8 +75,10 @@ def findRom(roms, name):
 
 def matchRom(roms, name, size, crc):
   for rom in roms:
+    romSize = 0
     if rom.get('size'):
       romSize = int(rom.get('size'))
+    romCrc = 0
     if rom.get('crc'):
       romCrc  = int(rom.get('crc'),16)
     if name == rom.get('name') and size == romSize and crc == romCrc:
@@ -113,11 +115,11 @@ for game in games:
     games_missing += 1
 
   else:
-    with zipfile.ZipFile(gameFile, mode="r") as file:
+    with zipfile.ZipFile(gameFile, mode="r", allowZip64=True) as file:
 
       roms = game.findall('rom')
       for rom in roms[:]:
-        if rom.get('merge'):
+        if rom.get('merge') or rom.get('status') == "nodump":
           roms.remove(rom)
 
       roms_total += len(roms)
