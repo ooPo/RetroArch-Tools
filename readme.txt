@@ -33,3 +33,6 @@ sort-everdrive.py <source> <destination> <datfile>
 scan-roms.sh <directory> <name>
   - Scans the directory and generates a RetroArch compatible playlist.
   - Lakka missed some of my sets so I made this to do it manually.
+
+unpack-chd.sh
+  - Unpacks any CHD files in the current directory into their own directories.
