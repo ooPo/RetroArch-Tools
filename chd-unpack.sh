@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## unpack-chd.sh - by Naomi Peori <naomi@peori.ca>
+## chd-unpack.sh - by Naomi Peori <naomi@peori.ca>
 ## Unpacks any CHD files in the current directory into their own directories.
 
 IFS="

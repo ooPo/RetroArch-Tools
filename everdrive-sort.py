@@ -1,51 +1,46 @@
 #!/usr/bin/env python
 
 ##
-## sort-everdrive.py by Naomi Peori <naomi@peori.ca>
+## everdrive-sort.py by Naomi Peori <naomi@peori.ca>
 ## Sort roms using EverDrive compatible datfiles.
 ##
 
 import os
 import sys
 import zipfile
+import multiprocessing
 
 ##
 ## Check the arguments.
 ##
 
-if len(sys.argv) < 4:
-  print "Usage:", sys.argv[0], "<source> <destination> <datfile>"
+if len(sys.argv) < 2:
+  print "\nUsage:", sys.argv[0], "<source>"
   sys.exit()
 
-source      = sys.argv[1]
-destination = sys.argv[2]
-datfile     = sys.argv[3]
+source = sys.argv[1]
 
 if not os.path.isdir(source):
   print "ERROR: Source directory doesn't exist:", source
   sys.exit()
 
-if not os.path.isdir(destination):
-  print "WARNING: Destination directory doesn't exist:", destination
-  sys.exit()
-
-if not os.path.isfile(datfile):
-  print "ERROR: Data file does not exist:", datfile
-  sys.exit()
-
 ##
-## Load the datfile.
+## Load the datfiles.
 ##
 
+datfolder = "00_DATFILES"
 roms = {}
 
-with open(datfile, "r") as file:
-  lines = file.read().splitlines()
-  file.close()
-  for line in lines:
-    temp1, name, temp3, temp4, crc32 = line.split("\t");
-    crc32 = int(crc32, 16)
-    roms[crc32] = name
+datfiles = os.listdir(datfolder)
+for dirname, subdirectories, filenames in os.walk(datfolder):
+  for filename in filenames:
+    with open(dirname + "/" + filename, "r") as file:
+      for line in file.read().splitlines():
+        temp1, name, temp3, temp4, crc32 = line.split("\t");
+        crc32 = int(crc32, 16)
+        if not crc32 in roms:
+          roms[crc32] = []
+        roms[crc32].append(name)
 
 ##
 ## Functions
@@ -54,23 +49,21 @@ with open(datfile, "r") as file:
 def scanDirectory(directory):
   if os.path.isdir(directory):
     for dirname, subdirectories, filenames in os.walk(directory):
+      [pool.apply_async(scanFile, args=(dirname + "/" + filename,)) for filename in filenames]
       for subdirectory in subdirectories:
         scanDirectory(dirname + "/" + subdirectory)
-      for filename in filenames:
-        scanFile(dirname + "/" + filename)
 
 def scanFile(filename):
   if filename.endswith(".zip"):
     print filename
     with zipfile.ZipFile(filename, mode="r", allowZip64=True) as file:
       for info in file.infolist():
-        matchFile(file, info.filename, info.CRC)
-      file.close()
+        matchFile(info.CRC, file.read(info.filename))
 
-def matchFile(file, name, crc):
-  if crc in roms.keys():
-    filename = destination + "/" + roms[crc]
-    writeFile(filename, file.read(name))
+def matchFile(crc, data):
+  if crc in roms:
+    for filename in roms[crc]:
+      writeFile(filename, data)
 
 def writeFile(filename, data):
   if not os.path.isfile(filename):
@@ -80,10 +73,12 @@ def writeFile(filename, data):
     with open(filename, "w") as file:
       print "  " + filename
       file.write(data)
-      file.close()
 
 ##
 ## Main Program
 ##
 
+pool = multiprocessing.Pool()
 scanDirectory(source)
+pool.close()
+pool.join()

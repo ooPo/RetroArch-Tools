@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 ##
-## audit-roms.py by Naomi Peori <naomi@peori.ca>
-## Audit roms using MAME & NoIntro compatible datfiles.
+## nointro-audit.py by Naomi Peori <naomi@peori.ca>
+## Audit roms using NoIntro-compatible datfiles.
 ##
 
 import os
@@ -10,166 +10,90 @@ import sys
 import binascii
 import zipfile
 import xml.etree.ElementTree as ET
+import shutil
 
 ##
-## Check the arguments.
+## Configuration
 ##
 
-if len(sys.argv) < 3:
-  print "Usage:", sys.argv[0], "<source> <datfile> [offset]"
-  sys.exit()
-
-source  = sys.argv[1]
-datfile = sys.argv[2]
-
-offset = 0
-if len(sys.argv) > 3:
-  offset  = int(sys.argv[3])
-
-if not os.path.isdir(source):
-  print "ERROR: Source directory doesn't exist:", source
-  sys.exit()
-
-if not os.path.isfile(datfile):
-  print "ERROR: Data file does not exist:", datfile
-  sys.exit()
-
-if offset < 0:
-  print "ERROR: Negative offsets are unsupported.", offset
-  sys.exit()
+datfolder = "00_DATFILES"
+offsets = { 'a78':128, 'lnx':64, 'nes': 16 }
 
 ##
-## Load the datfile.
+## Load the datfiles.
 ##
 
-print "Loading the datfile: "
-tree = ET.parse(datfile)
-root = tree.getroot()
-print "Done!"
+folders = []
+roms = {}
+
+for dirname, subdirectories, filenames in os.walk(datfolder):
+  for datfile in filenames:
+    if datfile.endswith(".dat"):
+      print datfile
+      tree = ET.parse(datfolder + "/" + datfile)
+      root = tree.getroot()
+      for game in root.findall('game') + root.findall('machine'):
+        gamename = game.get('name')
+        for rom in game.findall('rom'):
+          if not rom.get('merge') and not rom.get('status') == "nodump":
+            romname = rom.get('name')
+
+            folder   = datfile[:-4]
+            filename = folder + "/" + gamename + ".zip"
+            size     = int(rom.get('size')) if rom.get('size') else 0
+            crc      = int(rom.get('crc'),16) if rom.get('crc') else 0
+
+            if folder not in folders:
+              folders.append(folder)
+
+            if not filename in roms:
+              roms[filename] = {}
+
+            roms[filename][romname] = {'size': size, 'crc': crc}
 
 ##
-## CRC Functions
+## Check for unwanted files.
 ##
 
-def getCrc(file, name, crc):
-  if offset == 0:
-    return crc
+def scanExtras(directory):
+  for dirname, subdirectories, filenames in os.walk(directory):
+    for subdirectory in subdirectories:
+      scanDirectory(dirname + "/" + subdirectory)
+    for filename in filenames:
+      file = dirname + "/" + filename
+      if not file in roms:
+        print "EXTRA FILE: " + file
+
+for folder in folders:
+  scanExtras(folder)
+
+##
+## Check existing files.
+##
+
+for filename in roms:
+  if not os.path.isfile(filename):
+    print "MISSING FILE: " + filename
   else:
-    with file.open(name) as inputFile:
-      data = inputFile.read(offset)
-      data = inputFile.read()
-      inputFile.close()
-      return binascii.crc32(data) & 0xFFFFFFFF
-
-##
-## Find and Match Functions
-##
-
-def findRom(roms, name):
-  for rom in roms:
-    if name == rom.get('name'):
-      return True
-  return False
-
-def matchRom(roms, name, size, crc):
-  for rom in roms:
-    romSize = 0
-    if rom.get('size'):
-      romSize = int(rom.get('size'))
-    romCrc = 0
-    if rom.get('crc'):
-      romCrc  = int(rom.get('crc'),16)
-    if name == rom.get('name') and size == romSize and crc == romCrc:
-      return True
-  return False
-
-##
-## Reset the counters.
-##
-
-games_total   = 0
-games_missing = 0
-games_extra   = 0
-
-roms_total    = 0
-roms_corrupt  = 0
-roms_missing  = 0
-roms_extra    = 0
-
-##
-## Audit the games.
-##
-
-games = root.findall('game') + root.findall('machine')
-games_total = len(games)
-
-for game in games:
-
-  gameName = game.get('name') + ".zip"
-  gameFile = source + "/" + gameName
-
-  if not os.path.isfile(gameFile):
-    print "MISSING GAME: " + gameName
-    games_missing += 1
-
-  else:
-    with zipfile.ZipFile(gameFile, mode="r", allowZip64=True) as file:
-
-      roms = game.findall('rom')
-      for rom in roms[:]:
-        if rom.get('merge') or rom.get('status') == "nodump":
-          roms.remove(rom)
-
-      roms_total += len(roms)
-
-      romNames = []
-      for rom in roms:
-        romNames.append(rom.get('name'))
-
-      for info in file.infolist():
-
-        name = info.filename;
-        size = info.file_size - offset;
-        crc  = getCrc(file, name, info.CRC);
-
-        if not name in romNames:
-          print "EXTRA ROM:" + gameName + "/" + name
-          roms_extra += 1
-
-        elif not matchRom(roms, name, size, crc):
-          print "CORRUPT ROM:" + gameName + "/" + name
-          roms_corrupt += 1
-
-      for romName in romNames:
-        if not romName in file.namelist():
-          print "MISSING ROM:" + gameName + "/" + romName
-          roms_missing += 1
-
-      file.close()
-
-##
-## Audit the files.
-##
-
-gameNames = []
-for game in games:
-  gameNames.append(game.get('name') + ".zip")
-
-for dirname, subdirectories, filenames in os.walk(source):
-  for filename in filenames:
     if filename.endswith(".zip"):
-      if not filename in gameNames:
-        print "EXTRA GAME:" + filename
-        games_extra += 1
+      with zipfile.ZipFile(filename, mode="r", allowZip64=True) as file:
+        for rom in roms[filename]:
+          if rom not in file.namelist():
+            print "MISSING ROM: " + filename + "/" + rom
+        for info in file.infolist():
+          romname = filename + "/" + info.filename
+          if info.filename not in roms[filename]:
+            print "EXTRA ROM: " + romname
+          else:
+            rom = roms[filename][info.filename]
 
-##
-## Output the stats.
-##
+            extension = info.filename[-3:]
+            offset    = offsets[extension] if extension in offsets else 0
+            data      = file.read(info.filename) if offset != 0 else 0
+            crc       = info.CRC if offset == 0 else binascii.crc32(data[offset:]) & 0xFFFFFFFF
 
-print " "
-print "Stats:"
-print "  Missing Games: %d/%d (%.02f%%)" % (games_missing, games_total, 100 * float(games_missing) / float(games_total))
-print "  Extra Games:   %d" % games_extra
-print "  Missing Roms:  %d/%d (%.02f%%)" % (roms_missing, roms_total, 100 * float(roms_missing) / float(roms_total))
-print "  Corrupt Roms:  %d" % roms_corrupt
-print "  Extra Roms:    %d" % roms_extra
+            if rom['size'] != info.file_size - offset:
+              print "CORRUPT SIZE: " + romname
+            if rom['crc'] != crc:
+              print "CORRUPT CRC: " + romname
+

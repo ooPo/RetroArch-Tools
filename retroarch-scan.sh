@@ -1,5 +1,5 @@
 #!/bin/bash
-## scan-roms.sh by Naomi Peori <naomi@peori.ca>
+## retroarch-scan.sh by Naomi Peori <naomi@peori.ca>
 ## Scan a folder of roms to generate a RetroArch compatible playlist.
 
 IFS="

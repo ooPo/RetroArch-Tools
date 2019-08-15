@@ -7,10 +7,23 @@ I installed Lakka and it was great but a little rough at times. I made
 these tools to help manage roms and playlists. They run fine on-device
 or on any reasonably unix-like platform. Enjoy!
 
-audit-roms.sh <source> <datfile> [offset]
-  - Uses MAME and No-Intro compatible datfiles.
+nointro-audit.sh <source>
+  - Uses No-Intro/MAME compatible datfiles.
   - Scans the source directory and compare its contents to the datfile.
-  - Outputs stats and a list of missing games and roms.
+
+nointro-sort.py <source>
+  - Uses No-Intro/MAME compatible datfiles.
+  - Recursively scans the source directory and copies on match.
+
+everdrive-sort.py <source>
+  - Uses EverDrive/SmokeMonsterPacks compatible datfiles.
+  - Recursively scans the source directory and copies on match.
+
+retroarch-scan.sh <directory> <name>
+  - Scans the directory and generates a RetroArch compatible playlist.
+
+chd-unpack.sh
+  - Unpacks any CHD files in the current directory into their own directories.
 
 compress.sh <source>
   - Scans the source directory and creates a zip file for each file.
@@ -19,20 +32,3 @@ compress.sh <source>
 crc32.py <filename>
   - Calculates the CRC32 value for the file.
   - Uses the internal value instead for zip files.
-  - Useful for scripts that need a quick CRC32 value.
-
-sort-roms.py <source> <destination> <datfile> [offset]
-  - Uses MAME and No-Intro compatible datfiles.
-  - Recursively scans the source directory and copies on match.
-  - Offset, in bytes, to skip headers.
-
-sort-everdrive.py <source> <destination> <datfile>
-  - Uses EverDrive compatible datfiles.
-  - Recursively scans the source directory and copies on match.  
-
-scan-roms.sh <directory> <name>
-  - Scans the directory and generates a RetroArch compatible playlist.
-  - Lakka missed some of my sets so I made this to do it manually.
-
-unpack-chd.sh
-  - Unpacks any CHD files in the current directory into their own directories.

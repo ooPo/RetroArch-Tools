@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 ##
-## sort-roms.py by Naomi Peori <naomi@peori.ca>
-## Sort roms using MAME & NoIntro compatible datfiles.
+## nointro-sort.py by Naomi Peori <naomi@peori.ca>
+## Sort roms using NoIntro-compatible datfiles.
 ##
 
 import os
@@ -11,90 +11,58 @@ import binascii
 import zipfile
 import xml.etree.ElementTree as ET
 import shutil
+import multiprocessing
+
+##
+## Configuration
+##
+
+datfolder = "00_DATFILES"
+offsets = { 'a78':128, 'lnx':64, 'nes': 16 }
 
 ##
 ## Check the arguments.
 ##
 
-if len(sys.argv) < 4:
-  print "Usage:", sys.argv[0], "<source> <destination> <datfile> <offset>"
+if len(sys.argv) < 2:
+  print "Usage:", sys.argv[0], "<source>"
   sys.exit()
 
-source      = sys.argv[1]
-destination = sys.argv[2]
-datfile     = sys.argv[3]
-
-offset = 0
-if len(sys.argv) > 4:
-  offset = int(sys.argv[4])
+source = sys.argv[1]
 
 if not os.path.isdir(source):
   print "ERROR: Source directory doesn't exist:", source
   sys.exit()
 
-if not os.path.isdir(destination):
-  print "WARNING: Destination directory doesn't exist:", destination
-  sys.exit()
-
-if not os.path.isfile(datfile):
-  print "ERROR: Data file does not exist:", datfile
-  sys.exit()
-
-if offset < 0:
-  print "ERROR: Negative offsets are unsupported.", offset
-  sys.exit()
-
 ##
-## Load the datfile.
+## Load the datfiles.
 ##
-
-print "Loading the datfile: "
-tree = ET.parse(datfile)
-root = tree.getroot()
-print "Done!"
-
-##
-## Parse the datfile into a faster searchable structure.
-##
-
-print "Parsing the datfile:"
 
 roms = {}
 
-for game in root.findall('game') + root.findall('machine'):
-  gameName = game.get('name')
-  for rom in game.findall('rom'):
-    if not rom.get('merge') and not rom.get('status') == "nodump":
-      romName = rom.get('name')
-      size = 0
-      if rom.get('size'):
-        size = int(rom.get('size'))
-      crc = 0
-      if rom.get('crc'):
-        crc = int(rom.get('crc'),16)
-      if not size in roms.keys():
-        roms[size] = {}
-      if not crc in roms[size].keys():
-        roms[size][crc] = {}
-      if not roms[size][crc]:
-        roms[size][crc] = []
-      roms[size][crc].append({'gameName': gameName, 'romName': romName})
+for dirname, subdirectories, filenames in os.walk(datfolder):
+  for datfile in filenames:
+    if datfile.endswith(".dat"):
+      print datfile
+      tree = ET.parse(datfolder + "/" + datfile)
+      root = tree.getroot()
+      for game in root.findall('game') + root.findall('machine'):
+        gamename = game.get('name')
+        for rom in game.findall('rom'):
+          if not rom.get('merge') and not rom.get('status') == "nodump":
+            romname = rom.get('name')
 
-print "Done!"
+            size     = int(rom.get('size')) if rom.get('size') else 0
+            crc      = int(rom.get('crc'),16) if rom.get('crc') else 0
+            filename = datfile[:-4] + "/" + gamename + ".zip"
 
-##
-## Helper Functions
-##
+            if not size in roms:
+              roms[size] = {}
 
-def getCrc(file, name, crc):
-  if offset == 0:
-    return crc
-  else:
-    with file.open(name) as inputFile:
-      data = inputFile.read(offset)
-      data = inputFile.read()
-      inputFile.close()
-      return binascii.crc32(data) & 0xFFFFFFFF
+            if not crc in roms[size]:
+              roms[size][crc] = []
+
+            roms[size][crc].append({'filename': filename, 'romname': romname})
 
 ##
 ## Functions
@@ -103,35 +71,45 @@ def getCrc(file, name, crc):
 def scanDirectory(directory):
   if os.path.isdir(directory):
     for dirname, subdirectories, filenames in os.walk(directory):
+      [pool.apply_async(scanFile, args=(dirname + "/" + filename,)) for filename in filenames]
       for subdirectory in subdirectories:
         scanDirectory(dirname + "/" + subdirectory)
-      for filename in filenames:
-        scanFile(dirname + "/" + filename)
 
-def scanFile(filepath):
-  if filepath.endswith(".zip"):
-    print filepath
-    with zipfile.ZipFile(filepath, mode="r", allowZip64=True) as file:
+def scanFile(filename):
+  if filename.endswith(".zip"):
+    print filename
+    with zipfile.ZipFile(filename, mode="r", allowZip64=True) as file:
       for info in file.infolist():
-        matchFile(file, info.filename, getCrc(file, info.filename, info.CRC), info.file_size - offset)
-      file.close()
 
-def matchFile(file, name, crc, size):
-  if size in roms.keys():
-    rom = roms[size]
-    if crc in rom.keys():
-      matches = rom[crc]
-      for match in matches:
-        gameName = match['gameName']
-        romName  = match['romName']
-        with zipfile.ZipFile(destination + "/" + gameName + ".zip", mode="a", compression=zipfile.ZIP_DEFLATED, allowZip64=True) as outputFile:
-          if not romName in outputFile.namelist():
-            print "  " + name + " ==> " + gameName + "/" + romName
-            outputFile.writestr(romName, file.read(name));
-          outputFile.close()
+        data      = file.read(info.filename)
+        extension = info.filename[-3:]
+        offset    = offsets[extension] if extension in offsets else 0
+        crc       = info.CRC if offset == 0 else binascii.crc32(data[offset:]) & 0xFFFFFFFF
+        size      = info.file_size - offset
+
+        matchFile(size, crc, data)
+
+def matchFile(size, crc, data):
+  if size in roms:
+    if crc in roms[size]:
+      for rom in roms[size][crc]:
+        writeFile(rom['filename'],rom['romname'], data)
+
+def writeFile(filename, romname, data):
+  if not os.path.isfile(filename):
+    directory = os.path.dirname(filename)
+    if not os.path.isdir(directory):
+      os.makedirs(os.path.dirname(filename))
+  with zipfile.ZipFile(filename, mode="a", compression=zipfile.ZIP_DEFLATED, allowZip64=True) as file:
+    if not romname in file.namelist():
+      print "  " + filename + " " + romname
+      file.writestr(romname, data);
 
 ##
 ## Main Program
 ##
 
+pool = multiprocessing.Pool(4)
 scanDirectory(source)
+pool.close()
+pool.join()
