@@ -72,8 +72,6 @@ def scanDirectory(directory):
   if os.path.isdir(directory):
     for dirname, subdirectories, filenames in os.walk(directory):
       [pool.apply_async(scanFile, args=(dirname + "/" + filename,)) for filename in filenames]
-      for subdirectory in subdirectories:
-        scanDirectory(dirname + "/" + subdirectory)
 
 def scanFile(filename):
   if filename.endswith(".zip"):

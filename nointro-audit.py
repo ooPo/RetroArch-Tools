@@ -56,13 +56,12 @@ for dirname, subdirectories, filenames in os.walk(datfolder):
 ##
 
 def scanExtras(directory):
-  for dirname, subdirectories, filenames in os.walk(directory):
-    for subdirectory in subdirectories:
-      scanDirectory(dirname + "/" + subdirectory)
-    for filename in filenames:
-      file = dirname + "/" + filename
-      if not file in roms:
-        print "EXTRA FILE: " + file
+  if os.path.isdir(directory):
+    for dirname, subdirectories, filenames in os.walk(directory):
+      for filename in filenames:
+        file = os.path.join(dirname, filename)
+        if not file in roms:
+          print "EXTRA FILE: " + file
 
 for folder in folders:
   scanExtras(folder)
